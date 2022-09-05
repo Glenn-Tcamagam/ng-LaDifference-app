@@ -1,0 +1,27 @@
+<div *ngIf="iphone" class="row">
+  <div class="entete">
+    <h1>Finaliser votre commande de {{ iphone.name }}</h1>
+    <hr />
+    <br />
+  </div>
+  <div>
+    <div class="petittexte">
+      <ul>
+        <li>
+          Chez La Difference faitez vos achats en toutes sécurite et a bon Prix.
+        </li>
+        <li>
+          ***Modele Européen et Américain*** Occasion, scellé et original
+          smartphone.<br />
+          Les Telephones sont vendus sans chargeurs et accessoires, ces derniers
+          vendus à part à leurs prix.
+        </li>
+      </ul>
+      <h5>Entrez vos coordonnées ci-dessous pour completer votre achat:</h5>
+      <br />
+      <h6>Total estimé entre {{ iphone.prix }}</h6>
+    </div>
+  </div>
+</div>
+<br /><br /><br />
+<app-register-form></app-register-form>

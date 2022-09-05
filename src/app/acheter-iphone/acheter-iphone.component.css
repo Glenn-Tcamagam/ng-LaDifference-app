@@ -1,0 +1,15 @@
+.entete {
+  text-align: center;
+}
+.petittexte {
+  margin-left: 16rem;
+  text-align: center;
+  font-size: 20px;
+  /** background-color: rgba(30, 144, 255, 0.09);*/
+  background-color: rgba(255, 165, 0, 0.1);
+  height: 190px;
+  width: 1100px;
+}
+.petittexte h6 {
+  color: red;
+}

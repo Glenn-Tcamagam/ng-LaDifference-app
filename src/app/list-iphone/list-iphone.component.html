@@ -1,0 +1,68 @@
+<app-search-iphone></app-search-iphone><br /><br />
+<p id="nostelephones">Nos Telephones</p>
+<div class="container">
+  <div class="row">
+    <div *ngFor="let iphone of iphoneList" class="col m12 s6">
+      <div class="card horizontal" iphoneBorderCard>
+        <div class="card-image">
+          <img [src]="iphone.picture" height="90px" width="90px" />
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p id="nom">{{ iphone.name }}</p>
+            <style>
+              #nom {
+                font-size: 12.3px;
+                font-weight: bolder;
+              }
+            </style>
+            <br />
+
+            <button
+              class="btn btn-secondary"
+              (click)="goToDetailList(iphone)"
+              id="plus-de-detail"
+            >
+              <span>Plus de details</span>
+            </button>
+
+            &nbsp;
+            <button (click)="goToIphoneAcheter(iphone)" class="btn btn-warning">
+              ACHETER
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #plus-de-detail {
+    font-size: 10.3px;
+  }
+</style>
+
+<!--
+[ngClass]="{
+  'is-invalid':
+    registerForm.get('password')?.touched &&
+    !registerForm.get('password')?.valid
+}"
+
+[ngClass]="{
+  'is-invalid':
+    registerForm.get('phone')?.touched &&
+    !registerForm.get('phone')?.valid
+}"
+[ngClass]="{
+  'is-invalid':
+    registerForm.get('firstName')?.touched &&
+    !registerForm.get('firstName')?.valid
+}"
+[ngClass]="{
+  'is-invalid':
+    registerForm.get('lastName')?.touched &&
+    !registerForm.get('lastName')?.valid
+}"
+-->

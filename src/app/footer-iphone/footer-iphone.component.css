@@ -1,0 +1,25 @@
+#nouscontacter {
+  margin-left: 10rem;
+  font-size: 20px;
+  color: white;
+}
+.contact {
+  font-weight: bolder;
+  margin-left: 10rem;
+}
+#situe {
+  margin-left: 15rem;
+}
+#espace {
+  display: flex;
+}
+
+.bg2droite {
+  margin-left: 22rem;
+}
+.images {
+  margin-left: 20rem;
+}
+.nhesitezpas {
+  margin-left: 20px;
+}

@@ -1,0 +1,22 @@
+#nav1 {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 45rem;
+  text-decoration: none;
+}
+
+.menu li {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #dc3545;
+}
+img {
+  margin-top: -1rem;
+}

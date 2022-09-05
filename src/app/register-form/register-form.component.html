@@ -1,0 +1,534 @@
+<!--
+<div class="row">
+  <div class="col s6 m6 offset-m6">
+    <h2 class="header center">
+      <span class="text-white bg-info">information du client</span>
+    </h2>
+    <label for="nom">Nom complet</label>
+    <input type="text"  placeholder="Entrez votre nom et prenom "/>
+  </div>
+</div>
+<br /><br />
+-->
+
+<div class="view">
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="card">
+      <div class="row">
+        <div class="col s6 offset-s3" id="decale">
+          <h2 class="header center">
+            <span>Informations du client</span>
+          </h2>
+
+          <div class="card-panel">
+            <div class="form-group">
+              <label for="nom">Nom complet</label>
+              <input
+                placeholder="Entrez votre nom et prenom"
+                type="text"
+                class="form-control"
+                id="nom"
+                formControlName="firstName"
+                required
+              />
+              <label for="prenom">E-mail</label>
+              <input
+                placeholder="Entrez votre mail"
+                type="text"
+                class="form-control"
+                id="mail"
+                formControlName="mail"
+                required
+              />
+              <label for="telephone">Téléphone</label>
+              <input
+                placeholder="Entrez votre Téléphone"
+                type="number"
+                id="phone"
+                class="form-control"
+                formControlName="phone"
+                pattern="^6[0-9]{8}"
+                required
+              />
+              <label for="ville">Ville</label>
+              <input
+                placeholder="Entrez votre ville"
+                type="text"
+                id="city"
+                class="form-control"
+                formControlName="city"
+                required
+              />
+              <label for="position"
+                >Plus de detail sur votre position pour votre livraison</label
+              >
+              <textarea
+                id
+                class="form-control"
+                id="textarea"
+                formControlName="position"
+              ></textarea>
+              <br />
+
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <div>
+      <div class="card">
+        <div class="view">
+          <div class="row">
+            <div class="col s6 offset-s3" id="decale">
+              <h2 class="header center">
+                <span>Informations sur le Téléphone</span>
+              </h2>
+
+              <div class="card-panel">
+                <div class="form-group">
+                  <div class="col-md-6 mb-6">
+                    <label>Quantite</label>
+                    <select
+                      id=""
+                      class="form-control"
+                      formControlName="quantite"
+                    >
+                      <option value="" disabled>
+                        Vous desirez acheter combien de telephone?
+                      </option>
+                      <option value="A">1</option>
+                      <option value="A">2</option>
+                      <option value="A">3</option>
+                      <option value="A">4</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 mb-6">
+                    <label>Capacite</label>
+                    <select
+                      id=""
+                      class="form-control"
+                      formControlName="capacite"
+                    >
+                      <option value="" disabled>
+                        Selectionner une capacite
+                      </option>
+                      <option value="A">32 giga</option>
+                      <option value="A">64 giga</option>
+                      <option value="A">128 giga</option>
+                      <option value="A">256 giga</option>
+                      <option value="A">512 giga</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 mb-6">
+                    <label>Couleurs</label>
+                    <select
+                      id=""
+                      class="form-control"
+                      formControlName="couleurs"
+                    >
+                      <option value="" disabled>
+                        Vous desirez acheter quelle couleure?
+                      </option>
+                      <option value="A">Noire</option>
+                      <option value="A">Blanche</option>
+                      <option value="A">Rouge</option>
+                      <option value="A">Bleue</option>
+                      <option value="A">Gold</option>
+                      <option value="A">Verte</option>
+                    </select>
+                  </div>
+                  <br />
+
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div>
+      <div class="card">
+        <div class="view">
+          <div class="row">
+            <div class="col s6 offset-s3" id="decale">
+              <h2 class="header center">
+                <span>Moyens de payement</span>
+              </h2>
+
+              <div class="card-panel">
+                <div class="form-group">
+                  <div class="col-md-6 mb-6">
+                    <label>
+                      <input
+                        type="checkbox"
+                        formControlName="checkbox1"
+                        checked="checked"
+                      />
+                      <span>OM / MOMO</span>
+                    </label>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                    <label>
+                      <input type="checkbox" formControlName="checkbox2" />
+                      <span>Carte bancaire</span>
+                    </label>
+                  </div>
+                  <div *ngIf="registerForm.get('checkbox')?.value">
+                    Notre numero om es 695465613 <br />
+                    Notre numero momo es 677984567
+                  </div>
+                  <br />
+
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="positionbutton">
+      <button type="submit" id="submit1" class="btn btn-success">
+        Envoyer
+      </button>
+    </div>
+  </form>
+</div>
+
+<br />
+
+<!--
+<div class="card">
+  <div class="card-header text-white bg-info">s'enregister</div>
+  <div class="card-body">
+    <form novalidate (ngSubmit)="saveData()" [formGroup]="registerForm">
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label>Nom</label>
+          <input
+            type="text"
+            placeholder="Entrez votre nom"
+            class="form-control"
+            formControlName="lastName"
+            required
+            minlength="4"
+            [ngClass]="{
+              'is-invalid':
+                registerForm.get('lastName')?.touched &&
+                !registerForm.get('lastName')?.valid
+            }"
+          />
+
+          <div class="invalid-feedback">
+            <span *ngIf="registerForm.get('lastName')?.errors?.['required']"
+              >entrez votre nom</span
+            >
+            <span *ngIf="registerForm.get('lastName')?.errors?.['minlength']">
+              minimum 4 caracteres
+            </span>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label>Prenom</label>
+          <input
+            type="text"
+            placeholder="Entrez votre prenom"
+            class="form-control"
+            formControlName="firstName"
+            required
+            [ngClass]="{
+              'is-invalid':
+                registerForm.get('firstName')?.touched &&
+                !registerForm.get('firstName')?.valid
+            }"
+          />
+          <div class="invalid-feedback">
+            <span *ngIf="registerForm.get('firstName')?.errors?.['required']"
+              >entrez votre prenom</span
+            >
+            <span *ngIf="registerForm.get('firstName')?.errors?.['minlength']">
+              minimum 4 caracteres
+            </span>
+          </div>
+        </div>
+        <div class="form-row" formGroupName="emailGroup">
+          <div class="col-md-6 mb-3">
+            <label>E-mail</label>
+            <input
+              type="mail"
+              placeholder="Entrez votre adresse mail"
+              class="form-control"
+              formControlName="email"
+              required
+              maxlength="100"
+              [ngClass]="{
+                'is-invalid': errorMsg
+              }"
+            />
+            <div class="invalid-feedback">
+              {{ errorMsg }}
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="confirmEmailId">Confirmer votre email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="confirmEmailId"
+              placeholder="confirmer votre email(requis)"
+              formControlName="confirmEmail"
+              [ngClass]="{
+                'is-invalid':
+                  registerForm!.get('emailGroup')?.errors ||
+                  ((registerForm!.get('emailGroup.confirmEmail')?.touched ||
+                    registerForm!.get('emailGroup.confirmEmail')?.dirty) &&
+                    !registerForm!.get('emailGroup.confirmEmail')?.valid)
+              }"
+            />
+            <div class="invalid-feedback">
+              <span
+                *ngIf="registerForm!.get('emailGroup.confirmEmail')?.errors?.['required']"
+              >
+                Merci de confirmer votre email
+              </span>
+              <span *ngIf="registerForm!.get('emailGroup')?.errors?.['match']">
+                L'email ne correspond pas
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="phoneId">Telephone</label>
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Numero de tel "
+            formControlName="phone"
+            [ngClass]="{ 'is-invalid': !registerForm.get('phone')?.valid }"
+          />
+          <div class="invalid-feedback">
+            <span *ngIf="!registerForm.get('phone')?.errors?.['required']">
+              Veuillez entrer votre numero de telephone
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label>Recevoir les notifications</label>
+          <div class="col-md-8">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input
+                  type="checkbox"
+                  value="email"
+                  formControlName="notification"
+                  class="form-check-input"
+                />
+                E-mail
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input
+                  type="radio"
+                  value="text"
+                  class="form-check-input"
+                  formControlName="notification"
+                />
+                Texte
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row mb-3">
+        <div class="col-md-6">
+          <label for="ratingId">Notez notre service sur 5</label>
+          <input
+            type="number"
+            class="form-control"
+            id="ratingId"
+            formControlName="rating"
+            [ngClass]="{
+              'is-invalid':
+                (registerForm.get('rating')?.touched ||
+                  registerForm.get('rating')?.dirty) &&
+                !registerForm.get('rating')?.valid
+            }"
+          />
+          <div class="invalid-feedback">
+            <span *ngIf="registerForm.get('rating')?.errors?.['rangeError']">
+              Notez notre service client sur une echelle de 1 a 5
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-check mt-4 pt-3">
+            <label for="sendCatalogId" class="form-check-label">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                formControlName="sendCatalog"
+              />
+              Oui je souhaite recevoir la pub
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="registerForm!.get('sendCatalog')?.value">
+        <div
+          formArrayName="addresses"
+          *ngFor="let address of addressList.controls; let i = index"
+        >
+          <div [formGroupName]="i">
+            <div class="form-group row mb-2">
+              <label class="col-md-2 col-form-label pt-0"> type </label>
+              <div class="col-md-8">
+                <div class="form-check form-check-inline">
+                  <label for="" class="form-check-label">
+                    <input
+                      type="radio"
+                      formControlName="addressType"
+                      value="home"
+                      class="form-check-input"
+                    />
+                    Domicile
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label for="" class="form-check-label">
+                    <input
+                      type="radio"
+                      formControlName="addressType"
+                      value="work"
+                      class="form-check-input"
+                    />
+                    Lieu de travail
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label for="" class="form-check-label">
+                    <input
+                      type="radio"
+                      formControlName="addressType"
+                      value="other"
+                      class="form-check-input"
+                    />
+                    Autre
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row mb-3">
+              <div class="col-md-12">
+                <label attr.for="{{ 'street1Id' + i }}">Adresse 1</label>
+                <input
+                  type="text"
+                  id="{{ 'street1Id' + i }}"
+                  formControlName="street1"
+                  class="form-control"
+                />
+              </div>
+            </div>
+
+            <div class="form-row mb-3">
+              <div class="col-md-12">
+                <label attr.for="{{ 'street2Id' + i }}">Adresse 2</label>
+                <input
+                  type="text"
+                  id="{{ 'street2Id' + i }}"
+                  formControlName="street2"
+                  class="form-control"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label attr.for="{{ 'cityId' + i }}">Ville</label>
+                <input
+                  type="text"
+                  id="{{ 'cityId' + i }}"
+                  formControlName="city"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-md-3 mb-3">
+                <label attr.for="{{ 'stateId' + i }}">Departement</label>
+                <select
+                  id="{{ 'stateId' + i }}"
+                  class="form-control"
+                  formControlName="state"
+                >
+                  <option value="">Selectionner un departement</option>
+                  <option value="A">A</option>
+                  <option value="A">B</option>
+                  <option value="A">C</option>
+                  <option value="A">D</option>
+                </select>
+              </div>
+
+              <div class="col-md-3 md-3">
+                <label attr.for="{{ 'zipId' + i }}">Code postal</label>
+                <input
+                  type="number"
+                  id="{{ 'zipId' + i }}"
+                  formControlName="zip"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <div class="col-md-4">
+            <button
+              class="btn btn-outline-info"
+              type="button"
+              (click)="addAddress()"
+            >
+              Ajouter une address
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-right">
+        <button class="btn btn-outline-info mr-2" (click)="fillFormData()">
+          remplir les champ par defaut>
+        </button>
+        <button
+          class="btn btn-info"
+          type="submit"
+          [disabled]="!registerForm!.valid"
+        >
+          Sauvegarder
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<form action="">
+  <p>
+    <label>
+      <input type="checkbox" />
+      <span>red</span>
+    </label>
+  </p>
+</form>
+-->
