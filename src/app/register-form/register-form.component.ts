@@ -36,13 +36,10 @@ export class RegisterFormComponent implements OnInit {
       this.iphone = this.iphoneList.find((iphone) => iphone.id == +iphoneId);
     } else {
     }
-  }
-
-  onSubmit() {
     this.registerForm = this.fb.group({
       firstName: ["", [Validators.required, Validators.minLength(4)]],
       mail: ["", [Validators.required, Validators.minLength(11)]],
-      phone: ["", [Validators.required]],
+      phone: ["", [Validators.required, Validators.minLength(2)]],
       city: ["", [Validators.required, Validators.minLength(2)]],
       position: ["", [Validators.required, Validators.minLength(4)]],
       quantite: ["", [Validators.required, Validators.minLength(4)]],
@@ -52,5 +49,11 @@ export class RegisterFormComponent implements OnInit {
       checkbox2: true,
       sendCatalog: true,
     });
+  }
+
+  onSubmit() {
+    console.log(this.registerForm);
+    console.log("valeurs: ", JSON.stringify(this.registerForm!.value));
+    console.log("hello");
   }
 }

@@ -36,12 +36,35 @@
     </div>
   </div>
 </div>
+<br /><br />
+<ul>
+  <li
+    *ngFor="
+      let item of iphoneList | paginate: { itemsPerPage: 5, currentPage: p }
+    "
+  >
+    ...
+  </li>
+</ul>
 
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
 <style>
   #plus-de-detail {
     font-size: 10.3px;
   }
 </style>
+
+<!--
+<div class="container mt-5 mb-5">
+<div class="row">
+  <div *ngFor="let d of showpost" class="">
+<p><b>{{Iphone.name}}</b></p>
+  </div>
+
+</div>
+</div>
+
+-->
 
 <!--
 [ngClass]="{

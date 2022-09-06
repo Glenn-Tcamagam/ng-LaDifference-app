@@ -6,9 +6,13 @@
 }
 #submit1 {
   text-align: center;
-  width: 300px;
+  width: 400px;
   font-weight: bolder;
 }
 .positionbutton {
   text-align: center;
+}
+#positioncard {
+  width: 1400px;
+  margin-left: 6.5rem;
 }

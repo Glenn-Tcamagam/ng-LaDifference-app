@@ -15,6 +15,7 @@ import { AcheterIphoneComponent } from "./acheter-iphone/acheter-iphone.componen
 import { SearchIphoneComponent } from "./search-iphone/search-iphone.component";
 import { RegisterFormComponent } from "./register-form/register-form.component";
 import { ReactiveFormsModule } from "@angular/forms";
+import { NgxPaginationModule } from "ngx-pagination";
 
 @NgModule({
   declarations: [
@@ -29,8 +30,14 @@ import { ReactiveFormsModule } from "@angular/forms";
     SearchIphoneComponent,
     RegisterFormComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    NgxPaginationModule,
+  ],
+
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent, ListIphoneComponent],
 })
 export class AppModule {}

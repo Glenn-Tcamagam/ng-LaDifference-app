@@ -13,7 +13,7 @@
 
 <div class="view">
   <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-    <div class="card">
+    <div class="card" id="positioncard">
       <div class="row">
         <div class="col s6 offset-s3" id="decale">
           <h2 class="header center">
@@ -30,7 +30,24 @@
                 id="nom"
                 formControlName="firstName"
                 required
+                [ngClass]="{
+                  'is-invalid':
+                    registerForm.get('firstName')?.touched &&
+                    !registerForm.get('firstName')?.valid
+                }"
               />
+              <div class="invalid-feedback">
+                <span
+                  *ngIf="registerForm.get('firstName')?.errors?.['required']"
+                  >entrez votre nom</span
+                >
+                <span
+                  *ngIf="registerForm.get('firstName')?.errors?.['minlength']"
+                >
+                  minimum 4 caracteres
+                </span>
+              </div>
+
               <label for="prenom">E-mail</label>
               <input
                 placeholder="Entrez votre mail"
@@ -39,7 +56,20 @@
                 id="mail"
                 formControlName="mail"
                 required
+                [ngClass]="{
+                  'is-invalid':
+                    registerForm.get('mail')?.touched &&
+                    !registerForm.get('mail')?.valid
+                }"
               />
+              <div class="invalid-feedback">
+                <span *ngIf="registerForm.get('mail')?.errors?.['required']"
+                  >entrez votre mail</span
+                >
+                <span *ngIf="registerForm.get('mail')?.errors?.['minlength']">
+                  Email incorrect
+                </span>
+              </div>
               <label for="telephone">Téléphone</label>
               <input
                 placeholder="Entrez votre Téléphone"
@@ -47,9 +77,21 @@
                 id="phone"
                 class="form-control"
                 formControlName="phone"
-                pattern="^6[0-9]{8}"
                 required
-              />
+                [ngClass]="{
+                  'is-invalid':
+                    registerForm.get('phone')?.touched &&
+                    !registerForm.get('phone')?.valid
+                }"
+              />{{ "1000000" | number: "3." }}
+              <div class="invalid-feedback">
+                <span *ngIf="registerForm.get('phone')?.errors?.['required']"
+                  >entrez votre téléphone</span
+                >
+                <span *ngIf="registerForm.get('phone')?.errors?.['minlength']">
+                  Téléphone incorrect
+                </span>
+              </div>
               <label for="ville">Ville</label>
               <input
                 placeholder="Entrez votre ville"
@@ -58,7 +100,20 @@
                 class="form-control"
                 formControlName="city"
                 required
+                [ngClass]="{
+                  'is-invalid':
+                    registerForm.get('city')?.touched &&
+                    !registerForm.get('city')?.valid
+                }"
               />
+              <div class="invalid-feedback">
+                <span *ngIf="registerForm.get('city')?.errors?.['required']"
+                  >entrez votre ville</span
+                >
+                <span *ngIf="registerForm.get('city')?.errors?.['minlength']">
+                  ville incorrecte
+                </span>
+              </div>
               <label for="position"
                 >Plus de detail sur votre position pour votre livraison</label
               >
@@ -67,7 +122,22 @@
                 class="form-control"
                 id="textarea"
                 formControlName="position"
+                [ngClass]="{
+                  'is-invalid':
+                    registerForm.get('position')?.touched &&
+                    !registerForm.get('position')?.valid
+                }"
               ></textarea>
+              <div class="invalid-feedback">
+                <span *ngIf="registerForm.get('position')?.errors?.['required']"
+                  >entrez votre position</span
+                >
+                <span
+                  *ngIf="registerForm.get('position')?.errors?.['minlength']"
+                >
+                  votre position es incorrecte
+                </span>
+              </div>
               <br />
 
               <br />
@@ -79,7 +149,7 @@
 
     <br /><br />
     <div>
-      <div class="card">
+      <div class="card" id="positioncard">
         <div class="view">
           <div class="row">
             <div class="col s6 offset-s3" id="decale">
@@ -95,14 +165,15 @@
                       id=""
                       class="form-control"
                       formControlName="quantite"
+                      required
                     >
                       <option value="" disabled>
                         Vous desirez acheter combien de telephone?
                       </option>
-                      <option value="A">1</option>
-                      <option value="A">2</option>
-                      <option value="A">3</option>
-                      <option value="A">4</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
                     </select>
                   </div>
                   <div class="col-md-6 mb-6">
@@ -111,15 +182,16 @@
                       id=""
                       class="form-control"
                       formControlName="capacite"
+                      required
                     >
                       <option value="" disabled>
                         Selectionner une capacite
                       </option>
-                      <option value="A">32 giga</option>
-                      <option value="A">64 giga</option>
-                      <option value="A">128 giga</option>
-                      <option value="A">256 giga</option>
-                      <option value="A">512 giga</option>
+                      <option value="32 giga">32 giga</option>
+                      <option value="64 giga">64 giga</option>
+                      <option value="128 giga">128 giga</option>
+                      <option value="256 giga">256 giga</option>
+                      <option value="512 giga">512 giga</option>
                     </select>
                   </div>
                   <div class="col-md-6 mb-6">
@@ -128,16 +200,17 @@
                       id=""
                       class="form-control"
                       formControlName="couleurs"
+                      required
                     >
                       <option value="" disabled>
                         Vous desirez acheter quelle couleure?
                       </option>
-                      <option value="A">Noire</option>
-                      <option value="A">Blanche</option>
-                      <option value="A">Rouge</option>
-                      <option value="A">Bleue</option>
-                      <option value="A">Gold</option>
-                      <option value="A">Verte</option>
+                      <option value="Noire">Noire</option>
+                      <option value="Blanche">Blanche</option>
+                      <option value="Rouge">Rouge</option>
+                      <option value="Bleue">Bleue</option>
+                      <option value="Gold">Gold</option>
+                      <option value="Verte">Verte</option>
                     </select>
                   </div>
                   <br />
@@ -152,7 +225,7 @@
     </div>
     <br /><br />
     <div>
-      <div class="card">
+      <div class="card" id="positioncard">
         <div class="view">
           <div class="row">
             <div class="col s6 offset-s3" id="decale">
@@ -164,11 +237,7 @@
                 <div class="form-group">
                   <div class="col-md-6 mb-6">
                     <label>
-                      <input
-                        type="checkbox"
-                        formControlName="checkbox1"
-                        checked="checked"
-                      />
+                      <input type="checkbox" formControlName="checkbox1" />
                       <span>OM / MOMO</span>
                     </label>
                     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
@@ -179,10 +248,21 @@
                       <span>Carte bancaire</span>
                     </label>
                   </div>
-                  <div *ngIf="registerForm.get('checkbox')?.value">
-                    Notre numero om es 695465613 <br />
-                    Notre numero momo es 677984567
+                  <div *ngIf="registerForm.get('checkbox1')?.value">
+                    <br /><br />
+                    Notre numero om es
+                    <span class="text-success">695465613</span>
+                    <br />
+                    Notre numero momo es
+                    <span class="text-success"> 677984567</span><br />
+
+                    <label>Nous envoyer une capture de votre payement</label
+                    ><br />
+                    <div class="">
+                      <input type="file" class="" multiple required />
+                    </div>
                   </div>
+
                   <br />
 
                   <br />
@@ -196,7 +276,7 @@
     <br />
     <div class="positionbutton">
       <button type="submit" id="submit1" class="btn btn-success">
-        Envoyer
+        Valider votre achat
       </button>
     </div>
   </form>
