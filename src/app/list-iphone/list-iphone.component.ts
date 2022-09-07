@@ -10,8 +10,8 @@ import { IPHONE } from "../mock-iphone-list";
 })
 export class ListIphoneComponent implements OnInit {
   iphoneList: Iphone[] = IPHONE;
-  iphone: Iphone | undefined;
   p: number = 1;
+
   constructor(private router: Router) {}
 
   ngOnInit(): void {}

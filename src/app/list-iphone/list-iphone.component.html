@@ -1,11 +1,19 @@
 <app-search-iphone></app-search-iphone><br /><br />
 <p id="nostelephones">Nos Telephones</p>
+
+<br /><br />
+
 <div class="container">
   <div class="row">
-    <div *ngFor="let iphone of iphoneList" class="col m12 s6">
+    <div
+      *ngFor="
+        let iphone of iphoneList | paginate: { itemsPerPage: 6, currentPage: p }
+      "
+      class="paginate"
+    >
       <div class="card horizontal" iphoneBorderCard>
         <div class="card-image">
-          <img [src]="iphone.picture" height="90px" width="90px" />
+          <img [src]="iphone.picture" height="100px" width="100px" />
         </div>
         <div class="card-stacked">
           <div class="card-content">
@@ -36,18 +44,9 @@
     </div>
   </div>
 </div>
-<br /><br />
-<ul>
-  <li
-    *ngFor="
-      let item of iphoneList | paginate: { itemsPerPage: 5, currentPage: p }
-    "
-  >
-    ...
-  </li>
-</ul>
-
-<pagination-controls (pageChange)="p = $event"></pagination-controls>
+<div class="stylepaginate">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
 <style>
   #plus-de-detail {
     font-size: 10.3px;
