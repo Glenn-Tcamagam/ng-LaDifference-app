@@ -1,4 +1,4 @@
-#nostelephones {
+#nosapplewatchs {
   margin-left: 10rem;
   font-size: 20px;
 }
@@ -13,10 +13,10 @@
   color: black !important;
 }
 /**
-nav {
-  background-color: #0000 !important;
-}
-*/
+  nav {
+    background-color: #0000 !important;
+  }
+  */
 .positionsearch {
   margin-left: 35rem;
   display: flex;

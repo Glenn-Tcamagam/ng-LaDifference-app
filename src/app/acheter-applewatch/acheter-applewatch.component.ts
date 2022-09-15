@@ -1,18 +1,17 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { ActivatedRoute, Router } from "@angular/router";
-import { Iphone } from "../iphone";
-import { IPHONE } from "../mock-iphone-list";
+import { Applewatch } from "../applewatch";
+import { APPLEWATCH } from "../mock-applewatch-list";
 
 @Component({
-  selector: "app-acheter-iphone",
-  templateUrl: "./acheter-iphone.component.html",
-  styleUrls: ["acheter-iphone.component.css"],
+  selector: "app-acheter-applewatch",
+  templateUrl: "./acheter-applewatch.component.html",
+  styleUrls: ["acheter-applewatch.component.css"],
 })
-export class AcheterIphoneComponent implements OnInit {
-  iphoneList: Iphone[];
-  iphone: Iphone | undefined;
-
+export class AcheterApplewatchComponent implements OnInit {
+  applewatchList: Applewatch[];
+  applewatch: Applewatch | undefined;
   registerForm = new FormGroup({});
   constructor(
     private route: ActivatedRoute,
@@ -20,11 +19,13 @@ export class AcheterIphoneComponent implements OnInit {
     private fb: FormBuilder
   ) {}
 
-  ngOnInit() {
-    this.iphoneList = IPHONE;
-    const iphoneId: string | null = this.route.snapshot.paramMap.get("id");
-    if (iphoneId) {
-      this.iphone = this.iphoneList.find((iphone) => iphone.id == +iphoneId);
+  ngOnInit(): void {
+    this.applewatchList = APPLEWATCH;
+    const applewatchId: string | null = this.route.snapshot.paramMap.get("id");
+    if (applewatchId) {
+      this.applewatch = this.applewatchList.find(
+        (applewatch) => applewatch.id == +applewatchId
+      );
     } else {
     }
     this.registerForm = this.fb.group({
@@ -39,9 +40,6 @@ export class AcheterIphoneComponent implements OnInit {
       checkbox1: true,
       checkbox2: false,
     });
-  }
-  goToIphoneList() {
-    this.router.navigate(["/iphones"]);
   }
   saveData() {
     console.log(this.registerForm.value);

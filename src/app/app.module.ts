@@ -16,6 +16,9 @@ import { SearchIphoneComponent } from "./search-iphone/search-iphone.component";
 import { RegisterFormComponent } from "./register-form/register-form.component";
 import { ReactiveFormsModule } from "@angular/forms";
 import { NgxPaginationModule } from "ngx-pagination";
+import { ListApplewatchComponent } from "./list-applewatch/list-applewatch.component";
+import { DetailApplewatchComponent } from "./detail-applewatch/detail-applewatch.component";
+import { AcheterApplewatchComponent } from './acheter-applewatch/acheter-applewatch.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +32,9 @@ import { NgxPaginationModule } from "ngx-pagination";
     AcheterIphoneComponent,
     SearchIphoneComponent,
     RegisterFormComponent,
+    ListApplewatchComponent,
+    DetailApplewatchComponent,
+    AcheterApplewatchComponent,
   ],
   imports: [
     BrowserModule,

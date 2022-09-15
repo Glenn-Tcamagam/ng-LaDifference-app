@@ -1,6 +1,6 @@
-<div *ngIf="iphone" class="row">
+<div *ngIf="applewatch" class="row">
   <div class="entete">
-    <h1>Finaliser votre commande de {{ iphone.name }}</h1>
+    <h1>Finaliser votre commande de {{ applewatch.name }}</h1>
     <hr />
     <br />
   </div>
@@ -13,13 +13,12 @@
         <li>
           ***Modele Européen et Américain*** Occasion, scellé et original
           smartphone.<br />
-          Les Telephones sont vendus avec chargeurs et accessoires(pochette
-          scillicon et écran de protection).
+          Les Apples watchs sont vendus avec chargeur.
         </li>
       </ul>
       <h5>Entrez vos coordonnées ci-dessous pour completer votre achat:</h5>
       <br />
-      <h6>Total estimé entre {{ iphone.prix }}</h6>
+      <h6>Total estimé à {{ applewatch.prix }}</h6>
     </div>
   </div>
 </div>
@@ -178,11 +177,11 @@
           <div class="row">
             <div class="col s6 offset-s3" id="decale">
               <h2 class="header center">
-                <span>Informations sur le Téléphone</span>
+                <span>Informations sur l'Apple Watch</span>
               </h2>
               Avant de remplir les champs ci-dessous, veillez verifier les
-              informations de votre telephone dans "<span id="detail"
-                >detail iphone</span
+              informations de votre apple watch dans "<span id="detail"
+                >detail apple watch</span
               >"
 
               <div class="card-panel">
@@ -190,7 +189,7 @@
                   <div class="col-md-6 mb-6">
                     <label
                       >Quantite <br />
-                      (vous desirez acheter combien de téléphone ?)</label
+                      (vous desirez acheter combien d'apple watch ?)</label
                     >
                     <select
                       id=""
@@ -199,10 +198,7 @@
                       required
                     >
                       <option value=""></option>
-                      <option
-                        *ngFor="let qnt of ['1', '2', '3', '4']"
-                        [value]="qnt"
-                      >
+                      <option *ngFor="let qnt of ['1']" [value]="qnt">
                         {{ qnt }}
                       </option>
                     </select>
@@ -210,37 +206,9 @@
 
                   <div class="col-md-6 mb-6">
                     <label
-                      >Capacite <br />
-                      (Vous preférez quelle capacite ?)</label
-                    >
-                    <select
-                      id=""
-                      class="form-control"
-                      formControlName="capacite"
-                      required
-                    >
-                      <option value=""></option>
-                      <option
-                        *ngFor="
-                          let cpt of [
-                            '32 giga',
-                            '64 giga',
-                            '128 giga',
-                            '256 giga',
-                            '512 giga'
-                          ]
-                        "
-                        [value]="cpt"
-                      >
-                        {{ cpt }}
-                      </option>
-                    </select>
-                  </div>
-
-                  <div class="col-md-6 mb-6">
-                    <label
                       >Couleurs <br />
-                      (Vous preférez quelle couleure du téléphone ?)</label
+                      (Vous preférez quelle couleure du bracelet de votre Apple
+                      Watch ?)</label
                     >
                     <select
                       id=""
@@ -257,7 +225,7 @@
                             'Blue',
                             'Rouge',
                             'Verte',
-                            'Gold'
+                            'Violet'
                           ]
                         "
                         [value]="clr"

@@ -9,17 +9,13 @@ import { IPHONE } from "../mock-iphone-list";
 })
 export class SearchIphoneComponent implements OnInit {
   iphone: Iphone | undefined;
-  x: string[] = [];
 
-  search: string[] = ["iphone 7 plus", "iphone xr"];
+  iphoneList: Iphone[] = IPHONE;
+  // search: string[] = ["iphone 7 plus", "iphone xr"];
 
   constructor() {}
 
   ngOnInit(): void {
-    this.x = this.search;
-  }
-  filterInput(event: any) {
-    console.log(event.target.value);
-    this.x = this.search.filter((item) => item.includes(event.target.value));
+    // this.x = this.search;
   }
 }

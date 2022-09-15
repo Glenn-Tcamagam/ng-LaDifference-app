@@ -1,0 +1,57 @@
+<p id="nosapplewatchs">Nos Apples Watchs</p>
+
+<br /><br />
+
+<div class="container">
+  <div class="row">
+    <div
+      *ngFor="
+        let applewatch of filterinputsearch
+          | paginate: { itemsPerPage: 6, currentPage: pa }
+      "
+      class="paginate"
+    >
+      <div class="card horizontal" iphoneBorderCard>
+        <div class="card-image">
+          <img [src]="applewatch.picture1" height="100px" width="100px" />
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p id="nom">{{ applewatch.name }}</p>
+            <style>
+              #nom {
+                font-size: 12.3px;
+                font-weight: bolder;
+              }
+            </style>
+            <br />
+
+            <button
+              class="btn btn-secondary"
+              (click)="goTodetailapplewatch(applewatch)"
+              id="plus-de-detail"
+            >
+              <span>Plus de details</span>
+            </button>
+
+            &nbsp;
+            <button
+              (click)="goToapplewatchacheter(applewatch)"
+              class="btn btn-warning"
+            >
+              ACHETER
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="stylepaginate">
+  <pagination-controls (pageChange)="pa = $event"></pagination-controls>
+</div>
+<style>
+  #plus-de-detail {
+    font-size: 10.3px;
+  }
+</style>

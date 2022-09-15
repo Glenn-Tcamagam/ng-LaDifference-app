@@ -23,6 +23,16 @@ export class RegisterFormComponent implements OnInit {
   iphone: Iphone | undefined;
   registerForm = new FormGroup({});
 
+  // qntoption: number[] = [1, 2, 3, 4, 5];
+  // errorFistName!: string;
+  // errorMail!: string;
+  // errorPhone!: string;
+  // errorCity!: string;
+  // errorPosition!: string;
+  // errorQuantite!: number;
+  // errorCapacite!: string;
+  // errorCouleurs!: string;
+  // form: FormGroup;
   constructor(
     private route: ActivatedRoute,
     private router: Router,
@@ -38,22 +48,41 @@ export class RegisterFormComponent implements OnInit {
     }
     this.registerForm = this.fb.group({
       firstName: ["", [Validators.required, Validators.minLength(4)]],
-      mail: ["", [Validators.required, Validators.minLength(11)]],
+      mail: ["", [Validators.required, Validators.minLength(10)]],
       phone: ["", [Validators.required, Validators.minLength(2)]],
       city: ["", [Validators.required, Validators.minLength(2)]],
-      position: ["", [Validators.required, Validators.minLength(4)]],
-      quantite: ["", [Validators.required, Validators.minLength(4)]],
-      capacite: ["", [Validators.required, Validators.minLength(4)]],
-      couleurs: ["", [Validators.required, Validators.minLength(4)]],
+      position: ["", [Validators.required, Validators.minLength(10)]],
+      capacite: ["", [Validators.required]],
+      quantite: ["", [Validators.required]],
+      couleurs: ["", [Validators.required]],
       checkbox1: true,
-      checkbox2: true,
-      sendCatalog: true,
+      checkbox2: false,
     });
+    // this.form = this.fb.group({
+    //   qnt: [1],
+    // });
   }
 
-  onSubmit() {
-    console.log(this.registerForm);
-    console.log("valeurs: ", JSON.stringify(this.registerForm!.value));
-    console.log("hello");
+  saveData() {
+    console.log(this.registerForm.value);
+
+    // if (!this.registerForm.get("firstName")?.valid) {
+    //   this.errorFistName = "entrez votre prenom ...";
+    // }
+    // if (!this.registerForm.get("mail")?.valid) {
+    //   this.errorMail = "entrez votre mail ...";
+    // }
+    // if (!this.registerForm.get("phone")?.valid) {
+    //   this.errorPhone = "entrez votre telephone...";
+    // }
+    // if (!this.registerForm.get("city")?.valid) {
+    //   this.errorCity = "entrez votre ville ...";
+    // }
+    // if (!this.registerForm.get("position")?.valid) {
+    //   this.errorPosition =
+    //     "Bien nous indiquer votre position pour la livraison ...";
+    // } else {
+    //   console.log("ok");
+    // }
   }
 }

@@ -8,22 +8,24 @@
 </div>
 -->
 <!--
-<div class="row">
-  <div class="col s12 m2 offset-3">
-    <div class="card">
-      <div class="card-content">
-        <div class="input-field">
-          <input
-            type="text"
-            placeholder="rechercher un iphone"
-            (change)="filterInput($event)"
-          />
-          <div class="collection">
-            <a class="collection-item"
-              ><ul *ngFor="let liste of x">
-                <li>{{ liste }}</li>
-              </ul>
-            </a>
+<div class="position">
+  <div class="row">
+    <div class="col s12 m2 offset-3">
+      <div class="card">
+        <div class="card-content">
+          <div class="input-field">
+            <input
+              type="text"
+              placeholder="rechercher un iphone"
+              (change)="filterInput($event)"
+            />
+            <div class="collection">
+              <a class="collection-item"
+                ><ul *ngFor="let liste of x">
+                  <li>{{ liste }}</li>
+                </ul>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,130 @@
+<div *ngIf="applewatch" class="row">
+  <div class="col s12 m8 offset-m2">
+    <h2 class="header center">
+      <span id="nom">{{ applewatch.name }}</span>
+      <style>
+        #nom {
+          font-weight: bolder;
+        }
+        .row {
+          margin-right: 6rem;
+          margin-left: -9rem;
+        }
+      </style>
+    </h2>
+    <div class="card horizontal hoverable">
+      <div class="card-image">
+        <div class="fleximage">
+          <div>
+            <img [src]="applewatch.picture1" height="350px" width="300px" />
+          </div>
+          <div>
+            <img [src]="applewatch.picture2" height="350px" width="300px" />
+          </div>
+          <div>
+            <img [src]="applewatch.picture3" height="350px" width="300px" />
+          </div>
+        </div>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <table class="bordered striped">
+            <tbody>
+              <tr>
+                <td>Nom</td>
+                <td>
+                  <strong>{{ applewatch.name }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Systeme</td>
+                <td>
+                  <strong>{{ applewatch.systeme }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Systeme compatible</td>
+                <td>
+                  <strong>{{ applewatch.systeme_compatible }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Nombre de coeur</td>
+                <td>
+                  <strong>{{ applewatch.nombre_de_coeur }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>processeur</td>
+                <td>
+                  <strong>{{ applewatch.processeur }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Capacite de stockage disponible</td>
+                <td>
+                  <strong>{{
+                    applewatch.capacite_de_stockage_disponible
+                  }}</strong>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Clavier</td>
+                <td>
+                  <strong>{{ applewatch.clavier }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Couleur</td>
+                <td>
+                  <strong>{{ applewatch.couleur }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Tactile</td>
+                <td>
+                  <strong>{{ applewatch.tactile }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Reseau wifi supporte</td>
+                <td>
+                  <strong>{{ applewatch.reseau_wifi_supporte }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Support_GPS</td>
+                <td>
+                  <strong>{{ applewatch.support_GPS }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Fonction appareil photo</td>
+                <td>
+                  <strong>{{ applewatch.fonction_appareil_photo }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Poids</td>
+                <td>
+                  <strong>{{ applewatch.poids }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>prix</td>
+                <td>
+                  <strong>{{ applewatch.poids }}</strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-action">
+          <a (click)="goToapplewatchList()"> Retour</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h4 *ngIf="!applewatch" class="center">Aucun iphone à afficher !</h4>

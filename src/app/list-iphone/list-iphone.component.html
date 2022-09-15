@@ -1,4 +1,19 @@
-<app-search-iphone></app-search-iphone><br /><br />
+<form [formGroup]="formrecherche" (ngSubmit)="filterInput()">
+  <div class="positionsearch">
+    <div class="positioninput">
+      <input
+        type="text"
+        formControlName="search"
+        placeholder="Rechercher un Iphone"
+      />
+    </div>
+    <div class="positionbtnsearch">
+      <button class="btn btn-secondary" type="submit">Search</button>
+    </div>
+  </div>
+</form>
+
+<br /><br />
 <p id="nostelephones">Nos Telephones</p>
 
 <br /><br />
@@ -7,7 +22,8 @@
   <div class="row">
     <div
       *ngFor="
-        let iphone of iphoneList | paginate: { itemsPerPage: 6, currentPage: p }
+        let iphone of filterinputsearch
+          | paginate: { itemsPerPage: 6, currentPage: p }
       "
       class="paginate"
     >
@@ -53,6 +69,9 @@
   }
 </style>
 
+<br /><br />
+
+<app-list-applewatch></app-list-applewatch>
 <!--
 <div class="container mt-5 mb-5">
 <div class="row">
