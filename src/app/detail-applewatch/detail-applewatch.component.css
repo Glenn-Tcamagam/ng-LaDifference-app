@@ -2,3 +2,15 @@
   display: flex;
   margin-left: 0rem;
 }
+/** DEBUT RESPONSIVE**/
+
+@media screen and (max-width: 896px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  .positioncard {
+    margin-left: 10.5rem;
+    width: 31rem;
+  }
+}

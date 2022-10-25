@@ -6,7 +6,7 @@ import { IPHONE } from "../mock-iphone-list";
 @Component({
   selector: "app-detail-iphone",
   templateUrl: "./detail-iphone.component.html",
-  styles: [],
+  styleUrls: ["detail-iphone.component.css"],
 })
 export class DetailIphoneComponent implements OnInit {
   iphoneList: Iphone[];

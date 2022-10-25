@@ -1,6 +1,7 @@
 #nosapplewatchs {
   margin-left: 10rem;
-  font-size: 20px;
+  font-size: 40px;
+  font-weight: bolder;
 }
 .paginate {
   width: 440px;
@@ -23,4 +24,29 @@
 }
 .positioninput {
   width: 600px;
+}
+
+/** DEBUT RESPONSIVE**/
+
+@media screen and (max-width: 896px) {
+  #nosapplewatchs {
+    margin-left: 5rem;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .stylepaginate {
+    margin-left: 6rem;
+    width: 232.8px;
+    height: 20px;
+    text-align: center;
+    background-color: black !important;
+    color: black !important;
+  }
+  .paginate {
+    width: 240px;
+  }
+  img {
+    height: 100px;
+    width: 150px;
+  }
 }

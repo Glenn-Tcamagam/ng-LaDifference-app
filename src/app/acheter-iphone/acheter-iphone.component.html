@@ -1,6 +1,6 @@
 <div *ngIf="iphone" class="row">
   <div class="entete">
-    <h1>Finaliser votre commande de {{ iphone.name }}</h1>
+    <h1>Finaliser votre commande de votre {{ iphone.name }}</h1>
     <hr />
     <br />
   </div>
@@ -31,7 +31,7 @@
       <div class="row">
         <div class="col s6 offset-s3" id="decale">
           <h2 class="header center">
-            <span>Informations du client</span>
+            <span id="infoclient">Informations du client</span>
           </h2>
 
           <div class="card-panel">
@@ -110,8 +110,9 @@
                   téléphone incorrecte
                 </span>
               </div>
-
+              <!--
               {{ "1000000" | number: "3." }}
+-->
               <br />
               <label for="ville">Ville</label>
               <input
@@ -173,17 +174,19 @@
 
     <br /><br />
     <div>
-      <div class="card" id="positioncard">
+      <div class="card" id="positioncard2">
         <div class="view">
-          <div class="row">
+          <div class="row" id="id2">
             <div class="col s6 offset-s3" id="decale">
               <h2 class="header center">
                 <span>Informations sur le Téléphone</span>
               </h2>
-              Avant de remplir les champs ci-dessous, veillez verifier les
-              informations de votre telephone dans "<span id="detail"
-                >detail iphone</span
-              >"
+              <span id="masquer">
+                Avant de remplir les champs ci-dessous, veillez verifier les
+                informations de votre telephone dans "<span id="detail"
+                  >detail iphone</span
+                >"</span
+              >
 
               <div class="card-panel">
                 <div class="form-group">
@@ -198,11 +201,7 @@
                       formControlName="quantite"
                       required
                     >
-                      <option value=""></option>
-                      <option
-                        *ngFor="let qnt of ['1', '2', '3', '4']"
-                        [value]="qnt"
-                      >
+                      <option *ngFor="let qnt of ['1']" [value]="qnt">
                         {{ qnt }}
                       </option>
                     </select>
@@ -219,7 +218,6 @@
                       formControlName="capacite"
                       required
                     >
-                      <option value=""></option>
                       <option
                         *ngFor="
                           let cpt of [
@@ -279,9 +277,9 @@
     </div>
     <br /><br />
     <div>
-      <div class="card" id="positioncard">
+      <div class="card" id="positioncard3">
         <div class="view">
-          <div class="row">
+          <div class="row" id="id3">
             <div class="col s6 offset-s3" id="decale">
               <h2 class="header center">
                 <span>Moyens de payement</span>
@@ -295,6 +293,7 @@
                         type="checkbox"
                         value="OM / MOMO"
                         formControlName="checkbox1"
+                        required
                       />
                       <span>OM / MOMO</span>
                     </label>
@@ -312,11 +311,12 @@
                   </div>
                   <div *ngIf="registerForm.get('checkbox1')?.value">
                     <br /><br />
-                    Notre numero om es
-                    <span class="text-success">695465613</span>
+                    Pour effectuer votre payement, composez le
                     <br />
-                    Notre numero momo es
-                    <span class="text-success"> 677984567</span><br />
+                    <span class="text-success fw-bold">
+                      #150*14*montatnt*237#
+                    </span>
+                    <br />
 
                     <label>Nous envoyer une capture de votre payement</label
                     ><br />

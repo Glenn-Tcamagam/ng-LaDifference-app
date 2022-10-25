@@ -36,7 +36,7 @@ export class AcheterIphoneComponent implements OnInit {
       capacite: ["", [Validators.required]],
       quantite: ["", [Validators.required]],
       couleurs: ["", [Validators.required]],
-      checkbox1: true,
+      checkbox1: false,
       checkbox2: false,
     });
   }

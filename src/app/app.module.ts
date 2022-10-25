@@ -18,7 +18,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { NgxPaginationModule } from "ngx-pagination";
 import { ListApplewatchComponent } from "./list-applewatch/list-applewatch.component";
 import { DetailApplewatchComponent } from "./detail-applewatch/detail-applewatch.component";
-import { AcheterApplewatchComponent } from './acheter-applewatch/acheter-applewatch.component';
+import { AcheterApplewatchComponent } from "./acheter-applewatch/acheter-applewatch.component";
 
 @NgModule({
   declarations: [
