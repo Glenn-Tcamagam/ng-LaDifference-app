@@ -1,28 +1,25 @@
 <nav>
   <div class="nav-wrapper amber">
-    <span id="nav1" href="#" class="brand-logo"> </span>
+    <a id="nav1" href="#" class="brand-logo"> </a>
+    <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#nosIphones">Iphones</a></li>
+      <li><a href="#nosapplewatchs">Apple Watch</a></li>
 
-    <div class="menu">
-      <ul id="navigation-bar">
-        <!-- 
-        <a id="menu-icon" class="menu-icon">
-          <i class="fa fa-bars" ></i>
-        </a> -->
-        <label>
-          <input
-            type="checkbox"
-            value="Carte bancaire"
-            formControlName="checkbox1"
-          />
-          <span>MENU</span>
-        </label>
-
-        <li><a href="#nosIphones">Iphones</a></li>
-        <li><a href="#nosapplewatchs">Apple Watch</a></li>
-
-        <li><a href="#">Special promo</a></li>
-        <li><a href="#nouscontacter">Nous contatcter</a></li>
-      </ul>
-    </div>
+      <li><a href="#">Special promo</a></li>
+      <li><a href="#nouscontacter">Nous contatcter</a></li>
+    </ul>
   </div>
 </nav>
+
+<ul class="sidenav" id="mobile-nav">
+  <li>
+    <a href="#nosIphones">Iphones</a>
+  </li>
+  <li><a href="#nosapplewatchs">Apple Watch</a></li>
+
+  <li><a href="#">Special promo</a></li>
+  <li><a href="#nouscontacter">Nous contatcter</a></li>
+</ul>

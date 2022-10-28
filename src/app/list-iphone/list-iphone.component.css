@@ -25,7 +25,14 @@ nav {
 .positioninput {
   width: 600px;
 }
-
+i {
+  font-size: 30px;
+  text-align: center;
+}
+#buttonsearch {
+  width: 80px;
+  height: 45px;
+}
 /** DEBUT RESPONSIVE**/
 
 @media screen and (max-width: 896px) {
@@ -41,8 +48,13 @@ nav {
   .positioninput {
     width: 300px;
   }
-  .positionbtnsearch {
-    display: none;
+  i {
+    font-size: 20px;
+    text-align: center;
+  }
+  #buttonsearch {
+    width: 60px;
+    height: 35px;
   }
   .stylepaginate {
     margin-left: 6rem;

@@ -15,7 +15,12 @@
     <div class="positioncard">
       <div class="card horizontal hoverable">
         <div class="card-image">
-          <img [src]="iphone.picture" height="500px" width="300px" />
+          <img
+            class="materialboxed"
+            [src]="iphone.picture"
+            height="500px"
+            width="300px"
+          />
         </div>
         <div class="card-stacked">
           <div class="card-content">
@@ -30,7 +35,7 @@
                 <tr>
                   <td>Processeur</td>
                   <td>
-                    <strong>{{ iphone.processeur }}</strong>
+                    <strong class="colorier">{{ iphone.processeur }}</strong>
                   </td>
                 </tr>
                 <tr>
@@ -42,7 +47,7 @@
                 <tr>
                   <td>Batterie</td>
                   <td>
-                    <strong>{{ iphone.batterie }}</strong>
+                    <strong class="colorier">{{ iphone.batterie }}</strong>
                   </td>
                 </tr>
                 <tr>
@@ -54,7 +59,7 @@
                 <tr>
                   <td>Camera</td>
                   <td>
-                    <strong>{{ iphone.camera }}</strong>
+                    <strong class="colorier">{{ iphone.camera }}</strong>
                   </td>
                 </tr>
 
@@ -67,7 +72,7 @@
                 <tr>
                   <td>Couleurs</td>
                   <td>
-                    <strong>{{ iphone.couleurs }}</strong>
+                    <strong class="colorier">{{ iphone.couleurs }}</strong>
                   </td>
                 </tr>
                 <tr>
@@ -79,7 +84,7 @@
                 <tr>
                   <td>Gantie</td>
                   <td>
-                    <strong>{{ iphone.garantie }}</strong>
+                    <strong class="colorier">{{ iphone.garantie }}</strong>
                   </td>
                 </tr>
               </tbody>

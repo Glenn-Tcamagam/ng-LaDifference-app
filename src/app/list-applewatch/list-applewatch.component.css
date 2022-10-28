@@ -25,6 +25,22 @@
 .positioninput {
   width: 600px;
 }
+#appleiphone {
+  color: #ffd700;
+  margin-left: 5rem;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.titre {
+  font-weight: bolder;
+  font-size: 28px;
+  margin-left: 15rem;
+}
+.soustitre {
+  margin-left: 15rem;
+  color: gray;
+  width: 1000px;
+}
 
 /** DEBUT RESPONSIVE**/
 
@@ -48,5 +64,20 @@
   img {
     height: 100px;
     width: 150px;
+  }
+  #appleiphone {
+    margin-left: 0.5rem;
+    font-size: 15px;
+  }
+  .titre {
+    font-weight: bolder;
+    font-size: 17px;
+    margin-left: 1rem;
+  }
+  .soustitre {
+    margin-left: 1.5rem;
+    font-size: 12px;
+    color: gray;
+    width: 400px;
   }
 }

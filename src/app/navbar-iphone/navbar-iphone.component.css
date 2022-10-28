@@ -1,43 +1,4 @@
-#nav1 {
-  text-decoration: none;
-}
 a {
   text-decoration: none;
   color: #000000 !important;
-}
-.menu ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  text-decoration: none;
-}
-
-.menu li {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: #dc3545;
-}
-
-.menu-icon {
-  display: none;
-}
-
-@media screen and (max-width: 896px) {
-  .menu-icon {
-    display: block;
-  }
-  .menu li {
-    display: none;
-    position: absolute;
-    top: 3.7rem;
-    left: 0;
-    width: 100%;
-  }
-  .menu ul {
-    margin-left: -25rem;
-  }
-  label span {
-    color: #000000;
-  }
 }
