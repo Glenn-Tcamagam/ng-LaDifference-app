@@ -85,7 +85,7 @@ export const IPHONE: Iphone[] = [
     batterie: "2942 mAh",
     taille: "6.1 pouces",
     camera: "12 Mpx Simple capteur",
-    capacite: "64 et 128 giga",
+    capacite: "64, 128 et 256 giga",
     couleurs: "Noir, Blanche, Rouge, Rose",
     prix: "170000 et 185000 Fcfa",
     garantie: "1 mois",
@@ -132,7 +132,7 @@ export const IPHONE: Iphone[] = [
     camera: "12 Mpx, 12 Mpx",
     capacite: "64 et 128 giga",
     couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "240000 et 260000 Fcfa",
+    prix: "240000, 260000 et 290000 Fcfa",
     garantie: "2 mois",
   },
   {

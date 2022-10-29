@@ -3,6 +3,9 @@
   font-size: 40px;
   font-weight: bolder;
 }
+#cardhorizontal {
+  width: 380px;
+}
 .paginate {
   width: 440px;
 }
@@ -24,6 +27,9 @@
 }
 .positioninput {
   width: 600px;
+}
+#id1 {
+  display: none;
 }
 #appleiphone {
   color: #ffd700;
@@ -50,6 +56,9 @@
     font-size: 30px;
     font-weight: bolder;
   }
+  #cardhorizontal {
+    width: 225px;
+  }
   .stylepaginate {
     margin-left: 6rem;
     width: 232.8px;
@@ -62,8 +71,8 @@
     width: 240px;
   }
   img {
-    height: 100px;
-    width: 150px;
+    height: 145px;
+    width: 180px;
   }
   #appleiphone {
     margin-left: 0.5rem;

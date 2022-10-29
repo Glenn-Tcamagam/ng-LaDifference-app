@@ -32,33 +32,41 @@
       "
       class="paginate"
     >
-      <div class="card horizontal" iphoneBorderCard>
+      <div
+        class="card horizontal"
+        id="cardhorizontal"
+        (click)="goToDetailList(iphone)"
+        iphoneBorderCard
+      >
         <div class="card-image">
           <img
             [src]="iphone.picture"
             class="materialboxed"
-            height="150px"
-            width="150px"
+            height="190px"
+            width="190px"
           />
         </div>
         <div class="card-stacked">
           <div class="card-content">
-            <p id="nom">{{ iphone.name }}</p>
+            <p class="ecrisdanscard">{{ iphone.name }}</p>
+            <p class="ecrisdanscard">{{ iphone.capacite }}</p>
+
             <style>
-              #nom {
+              .ecrisdanscard {
                 font-size: 12.3px;
                 font-weight: bolder;
               }
             </style>
-            <br />
-
-            <button
+            <span id="id1"><br /></span>
+            <!-- 
+              <button
               class="btn btn-secondary"
               (click)="goToDetailList(iphone)"
               id="plus-de-detail"
             >
               <span>Plus de details</span>
             </button>
+            -->
 
             &nbsp;
             <button (click)="goToIphoneAcheter(iphone)" class="btn btn-warning">

@@ -3,8 +3,12 @@
   font-size: 40px;
   font-weight: bolder;
 }
+#cardhorizontal {
+  width: 380px;
+}
 .paginate {
   width: 440px;
+  height: 440px;
 }
 .stylepaginate {
   margin-left: 46rem;
@@ -25,6 +29,9 @@ nav {
 .positioninput {
   width: 600px;
 }
+#id1 {
+  display: none;
+}
 i {
   font-size: 30px;
   text-align: center;
@@ -40,6 +47,9 @@ i {
     margin-left: 8rem;
     font-size: 30px;
     font-weight: bolder;
+  }
+  #cardhorizontal {
+    width: 225px;
   }
   .positionsearch {
     margin-left: 4rem;
@@ -68,7 +78,10 @@ i {
     width: 240px;
   }
   img {
-    height: 100px;
-    width: 150px;
+    height: 140px;
+    width: 180px;
+  }
+  #id1 {
+    display: initial;
   }
 }

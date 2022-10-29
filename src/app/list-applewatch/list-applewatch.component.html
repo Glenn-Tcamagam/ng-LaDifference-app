@@ -12,13 +12,18 @@
       "
       class="paginate"
     >
-      <div class="card horizontal" iphoneBorderCard>
+      <div
+        class="card horizontal"
+        id="cardhorizontal"
+        (click)="goTodetailapplewatch(applewatch)"
+        iphoneBorderCard
+      >
         <div class="card-image">
           <img
             class="materialboxed"
             [src]="applewatch.picture1"
-            height="150px"
-            width="150px"
+            height="190px"
+            width="190px"
           />
         </div>
         <div class="card-stacked">
@@ -31,14 +36,13 @@
               }
             </style>
             <br />
-
-            <button
+            <!--<button
               class="btn btn-secondary"
               (click)="goTodetailapplewatch(applewatch)"
               id="plus-de-detail"
             >
               <span>Plus de details</span>
-            </button>
+            </button>-->
 
             &nbsp;
             <button
