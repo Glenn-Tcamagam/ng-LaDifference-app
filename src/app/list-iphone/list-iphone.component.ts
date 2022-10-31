@@ -14,7 +14,7 @@ import { IPHONE } from "../mock-iphone-list";
 export class ListIphoneComponent implements OnInit {
   iphoneList: Iphone[] = IPHONE;
 
-  p: number = 1;
+  p: number = 2;
   filterinputsearch: Iphone[] = [];
   formrecherche = new FormGroup({
     search: new FormControl(""),

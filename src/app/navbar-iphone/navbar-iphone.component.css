@@ -2,6 +2,14 @@ a {
   text-decoration: none;
   color: #000000 !important;
 }
-i {
-  margin-left: 30rem;
+@media screen and (max-width: 897px) {
+  i {
+    margin-left: 30rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  i {
+    margin-left: 25rem;
+  }
 }
