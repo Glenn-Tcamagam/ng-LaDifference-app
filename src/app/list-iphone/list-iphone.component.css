@@ -22,7 +22,7 @@ nav {
 }
 */
 .positionsearch {
-  margin-left: 35rem;
+  margin-left: 30rem;
   display: flex;
 }
 .positioninput {
@@ -51,7 +51,7 @@ i {
     width: 225px;
   }
   .positionsearch {
-    margin-left: 4rem;
+    margin-left: 3rem;
     display: flex;
   }
   .positioninput {
@@ -88,6 +88,6 @@ i {
 @media screen and (max-width: 450px) {
   .paginate {
     width: 240px;
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 }
