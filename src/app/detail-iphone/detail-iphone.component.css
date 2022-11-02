@@ -6,8 +6,8 @@
     width: 190px;
   }
   .positioncard {
-    margin-left: 10.5rem;
-    width: 31rem;
+    margin-left: 10.7rem;
+    width: 30rem;
   }
 }
 /**
@@ -17,4 +17,11 @@
 **/
 .colorier {
   color: #ffd700;
+}
+
+@media screen and (max-width: 450px) {
+  .positioncard {
+    margin-left: 9rem;
+    width: 25rem;
+  }
 }

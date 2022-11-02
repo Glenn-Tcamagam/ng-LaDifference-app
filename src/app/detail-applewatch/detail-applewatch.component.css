@@ -10,7 +10,13 @@
     width: 200px;
   }
   .positioncard {
-    margin-left: 10.5rem;
+    margin-left: 10.7rem;
     width: 31rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .positioncard {
+    margin-left: 9rem;
+    width: 25rem;
   }
 }
