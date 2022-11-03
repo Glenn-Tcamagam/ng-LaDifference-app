@@ -63,17 +63,17 @@
 
   .card-panel {
     margin-left: -6.8rem;
-    width: 410px;
+    width: 29.3rem;
   }
   #positioncard {
-    width: 460px;
+    width: 33rem;
   }
   #positioncard2 {
-    width: 460px;
+    width: 33rem;
     height: 420px;
   }
   #positioncard3 {
-    width: 460px;
+    width: 33rem;
     height: 194px;
   }
   #id2 {
@@ -96,5 +96,29 @@
   #submit1 {
     width: 400px;
     margin-left: 17rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .petittexte {
+    margin-left: 1rem;
+    font-size: 17px;
+    height: 270px;
+    width: 27rem;
+  }
+  .card-panel {
+    margin-left: -6.8rem;
+    width: 27rem;
+  }
+  #positioncard {
+    width: 29rem;
+  }
+  #positioncard2 {
+    width: 29rem;
+    height: 420px;
+  }
+  #positioncard3 {
+    width: 29rem;
+    height: 194px;
   }
 }
