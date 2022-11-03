@@ -39,6 +39,19 @@ i {
   width: 80px;
   height: 45px;
 }
+.titre {
+  font-weight: bolder;
+  font-size: 30px;
+}
+#backgroudtexte {
+  width: 1200px;
+  margin-left: 14rem;
+  text-align: center;
+}
+.soustitre {
+  font-size: 23px;
+  color: gray;
+}
 /** DEBUT RESPONSIVE**/
 
 @media screen and (max-width: 896px) {
@@ -83,11 +96,37 @@ i {
   #id1 {
     display: initial;
   }
+  .titre {
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  #backgroudtexte {
+    width: 450px;
+    margin-left: 1.3rem;
+    text-align: center;
+  }
+  .soustitre {
+    font-size: 13px;
+    color: gray;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .paginate {
     width: 240px;
     margin-left: 6rem;
+  }
+  .titre {
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  #backgroudtexte {
+    width: 27rem;
+    margin-left: 9.5rem;
+    text-align: center;
+  }
+  .soustitre {
+    font-size: 12.3px;
+    color: gray;
   }
 }
