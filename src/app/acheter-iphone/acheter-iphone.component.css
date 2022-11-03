@@ -102,23 +102,23 @@
 @media screen and (max-width: 450px) {
   .petittexte {
     margin-left: 1rem;
-    font-size: 17px;
-    height: 270px;
+    font-size: 18px;
+    height: 280px;
     width: 27rem;
   }
   .card-panel {
     margin-left: -6.8rem;
-    width: 27rem;
+    width: 26.8rem;
   }
   #positioncard {
-    width: 29rem;
+    width: 27.8rem;
   }
   #positioncard2 {
-    width: 29rem;
+    width: 27.8rem;
     height: 420px;
   }
   #positioncard3 {
-    width: 29rem;
+    width: 27.8rem;
     height: 194px;
   }
 }

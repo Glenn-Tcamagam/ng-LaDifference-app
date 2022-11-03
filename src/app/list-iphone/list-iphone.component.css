@@ -98,7 +98,7 @@ i {
   }
   .titre {
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 19px;
   }
   #backgroudtexte {
     width: 450px;
@@ -106,7 +106,7 @@ i {
     text-align: center;
   }
   .soustitre {
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
   }
 }
