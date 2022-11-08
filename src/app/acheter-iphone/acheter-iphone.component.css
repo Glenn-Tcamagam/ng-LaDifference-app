@@ -121,4 +121,7 @@
     width: 27.4rem;
     height: 194px;
   }
+  #positioninsidecard {
+    margin-left: -2rem;
+  }
 }
