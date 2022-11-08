@@ -123,9 +123,18 @@
   }
   #positioninsidecard2 {
     margin-left: -15.5rem;
-    margin-top: -2rem;
+    margin-top: -1rem;
   }
   #positioninsidecard3 {
     margin-left: -15.5rem;
+    margin-top: -0.7rem;
+  }
+  #submit1 {
+    text-align: center;
+    width: 550px;
+    font-weight: bolder;
+  }
+  .positionbutton {
+    text-align: center;
   }
 }
