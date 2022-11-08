@@ -102,7 +102,7 @@
   .petittexte {
     margin-left: 1rem;
     font-size: 18px;
-    height: 280px;
+    height: 270px;
     width: 27rem;
   }
   .card-panel {
@@ -114,18 +114,18 @@
   }
   #positioncard2 {
     width: 27.4rem;
-    height: 420px;
+    height: 400px;
   }
   #positioncard3 {
     width: 27.4rem;
     height: 194px;
   }
   #positioninsidecard2 {
-    margin-left: -15.5rem;
+    margin-left: -15rem;
     margin-top: -1rem;
   }
   #positioninsidecard3 {
-    margin-left: -15.5rem;
+    margin-left: -15rem;
     margin-top: -1rem;
   }
   #submit1 {
