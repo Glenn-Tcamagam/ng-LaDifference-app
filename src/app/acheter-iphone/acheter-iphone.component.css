@@ -114,7 +114,7 @@
     width: 27.4rem;
   }
   #positioncard2 {
-    width: 20rem;
+    width: 27.4rem;
     height: 420px;
   }
   #positioncard3 {
@@ -122,6 +122,6 @@
     height: 194px;
   }
   #positioninsidecard {
-    margin-left: -2rem;
+    margin-left: -8rem;
   }
 }
