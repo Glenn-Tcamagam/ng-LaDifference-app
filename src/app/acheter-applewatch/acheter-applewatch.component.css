@@ -120,12 +120,16 @@
     width: 27.4rem;
     height: 194px;
   }
+  #positioninsidecard1 {
+    margin-left: -16rem;
+    margin-top: -1rem;
+  }
   #positioninsidecard2 {
-    margin-left: -15rem;
+    margin-left: -16rem;
     margin-top: -1rem;
   }
   #positioninsidecard3 {
-    margin-left: -15rem;
+    margin-left: -16rem;
     margin-top: -1rem;
   }
   #submit1 {
