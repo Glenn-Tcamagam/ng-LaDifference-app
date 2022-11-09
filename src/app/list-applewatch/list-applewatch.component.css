@@ -47,7 +47,19 @@
   color: gray;
   width: 1000px;
 }
-
+#boutonposition {
+  margin-left: 38rem;
+  width: 30rem;
+  height: 3rem;
+  color: white;
+}
+.card {
+  width: 350px;
+}
+.display-image {
+  display: flex;
+  margin-left: 30rem;
+}
 /** DEBUT RESPONSIVE**/
 
 @media screen and (max-width: 896px) {
