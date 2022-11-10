@@ -141,12 +141,12 @@
     color: white;
   }
   .card {
-    width: 290px;
-    height: 240px;
+    width: 220px;
+    height: 310px;
     font-size: 10px;
   }
   #tailleimage {
-    height: 220px;
+    height: 230px;
   }
   .display-image {
     display: flex;
