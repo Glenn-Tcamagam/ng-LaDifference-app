@@ -101,11 +101,48 @@
     color: gray;
     width: 400px;
   }
+
+  #boutonposition {
+    margin-left: 9rem;
+    width: 18rem;
+    height: 3rem;
+    color: white;
+  }
+  .card {
+    width: 210px;
+    height: 240px;
+    font-size: 10px;
+  }
+  .display-image {
+    display: flex;
+    margin-left: 2rem;
+  }
+  #bloque {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .paginate {
     width: 240px;
     margin-left: 6rem;
+  }
+  #boutonposition {
+    margin-left: 9rem;
+    width: 18rem;
+    height: 3rem;
+    color: white;
+  }
+  .card {
+    width: 210px;
+    height: 240px;
+    font-size: 10px;
+  }
+  .display-image {
+    display: flex;
+    margin-left: 2rem;
+  }
+  #bloque {
+    display: none;
   }
 }
