@@ -128,19 +128,19 @@
     margin-left: 6rem;
   }
   #boutonposition {
-    margin-left: 9rem;
+    margin-left: 7rem;
     width: 18rem;
     height: 3rem;
     color: white;
   }
   .card {
     width: 210px;
-    height: 240px;
+    height: 250px;
     font-size: 10px;
   }
   .display-image {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
   #bloque {
     display: none;
