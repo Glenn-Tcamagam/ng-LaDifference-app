@@ -152,10 +152,8 @@
     display: flex;
     margin-left: 0.5rem;
   }
-  img .card-image {
-    height: 380px;
-  }
+
   #bloque {
-    display: none;
+    display: initial;
   }
 }
