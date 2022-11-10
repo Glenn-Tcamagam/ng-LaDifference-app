@@ -61,7 +61,7 @@
 }
 .display-image {
   display: flex;
-  margin-left: 30rem;
+  margin-left: 15rem;
 }
 
 /** DEBUT RESPONSIVE**/
@@ -112,17 +112,17 @@
     height: 3rem;
     color: white;
   }
-  .card {
-    width: 220px;
-    height: 292px;
+  .display-image .card {
+    width: 320px;
+    height: 360px;
     font-size: 10px;
+    margin-left: 6rem;
   }
   #tailleimage {
-    height: 220px;
+    height: 280px;
   }
   .display-image {
-    display: flex;
-    margin-left: 0.8rem;
+    display: initial;
   }
   #bloque {
     display: none;
