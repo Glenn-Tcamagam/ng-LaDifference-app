@@ -149,11 +149,11 @@
     height: 230px;
   }
   .display-image {
-    display: flex;
+    display: initial;
     margin-left: 0.5rem;
   }
 
   #bloque {
-    display: table-row;
+    display: initial;
   }
 }
