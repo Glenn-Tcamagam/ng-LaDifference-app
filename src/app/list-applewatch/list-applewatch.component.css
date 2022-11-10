@@ -141,17 +141,17 @@
     color: white;
   }
   .display-image .card {
-    width: 270px;
-    height: 335px;
+    width: 280px;
+    height: 345px;
     font-size: 10px;
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
   #tailleimage {
-    height: 260px;
+    height: 270px;
   }
   .display-image {
     display: initial;
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   #bloque {
