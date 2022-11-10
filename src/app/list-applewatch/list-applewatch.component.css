@@ -122,7 +122,7 @@
   }
   .display-image {
     display: flex;
-    margin-left: 0.5rem;
+    margin-left: 0.8rem;
   }
   #bloque {
     display: none;
@@ -141,16 +141,16 @@
     color: white;
   }
   .card {
-    width: 220px;
+    width: 240px;
     height: 315px;
     font-size: 10px;
   }
   #tailleimage {
-    height: 230px;
+    height: 250px;
   }
   .display-image {
     display: initial;
-    margin-left: 0.5rem;
+    margin-left: 6rem;
   }
 
   #bloque {
