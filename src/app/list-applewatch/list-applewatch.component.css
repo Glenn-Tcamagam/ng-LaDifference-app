@@ -56,10 +56,14 @@
 .card {
   width: 350px;
 }
+#tailleimage {
+  height: 350px;
+}
 .display-image {
   display: flex;
   margin-left: 30rem;
 }
+
 /** DEBUT RESPONSIVE**/
 
 @media screen and (max-width: 896px) {
@@ -109,13 +113,16 @@
     color: white;
   }
   .card {
-    width: 210px;
-    height: 240px;
+    width: 220px;
+    height: 292px;
     font-size: 10px;
+  }
+  #tailleimage {
+    height: 220px;
   }
   .display-image {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
   #bloque {
     display: none;
@@ -128,19 +135,25 @@
     margin-left: 6rem;
   }
   #boutonposition {
-    margin-left: 7rem;
+    margin-left: 5.5rem;
     width: 18rem;
     height: 3rem;
     color: white;
   }
   .card {
-    width: 210px;
-    height: 250px;
+    width: 290px;
+    height: 240px;
     font-size: 10px;
+  }
+  #tailleimage {
+    height: 220px;
   }
   .display-image {
     display: flex;
     margin-left: 0.5rem;
+  }
+  img .card-image {
+    height: 380px;
   }
   #bloque {
     display: none;
