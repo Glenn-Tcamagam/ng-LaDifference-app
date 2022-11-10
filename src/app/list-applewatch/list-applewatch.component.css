@@ -140,8 +140,8 @@
     height: 3rem;
     color: white;
   }
-  .card {
-    width: 250px;
+  .display-image .card {
+    width: 270px;
     height: 335px;
     font-size: 10px;
     margin-left: 6rem;
