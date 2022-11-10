@@ -142,7 +142,7 @@
   }
   .card {
     width: 220px;
-    height: 310px;
+    height: 315px;
     font-size: 10px;
   }
   #tailleimage {
@@ -154,6 +154,6 @@
   }
 
   #bloque {
-    display: initial;
+    display: table-row;
   }
 }
