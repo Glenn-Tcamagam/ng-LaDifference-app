@@ -6,6 +6,7 @@ import { DetailApplewatchComponent } from "./detail-applewatch/detail-applewatch
 import { DetailIphoneComponent } from "./detail-iphone/detail-iphone.component";
 import { ListApplewatchComponent } from "./list-applewatch/list-applewatch.component";
 import { ListIphoneComponent } from "./list-iphone/list-iphone.component";
+import { VisitergalerieComponent } from "./visitergalerie/visitergalerie.component";
 
 const routes: Routes = [
   { path: "iphones", component: ListIphoneComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: "applewatchs", component: ListApplewatchComponent },
   { path: "applewatch/:id", component: DetailApplewatchComponent },
   { path: "applewatchacheter/:id", component: AcheterApplewatchComponent },
+  { path: "visitergalerie", component: VisitergalerieComponent },
   { path: "", redirectTo: "iphones", pathMatch: "full" },
 ];
 

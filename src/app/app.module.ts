@@ -19,6 +19,7 @@ import { NgxPaginationModule } from "ngx-pagination";
 import { ListApplewatchComponent } from "./list-applewatch/list-applewatch.component";
 import { DetailApplewatchComponent } from "./detail-applewatch/detail-applewatch.component";
 import { AcheterApplewatchComponent } from "./acheter-applewatch/acheter-applewatch.component";
+import { VisitergalerieComponent } from './visitergalerie/visitergalerie.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { AcheterApplewatchComponent } from "./acheter-applewatch/acheter-applewa
     ListApplewatchComponent,
     DetailApplewatchComponent,
     AcheterApplewatchComponent,
+    VisitergalerieComponent,
   ],
   imports: [
     BrowserModule,
