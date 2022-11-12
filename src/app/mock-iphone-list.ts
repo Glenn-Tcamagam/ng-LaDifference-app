@@ -18,8 +18,7 @@ export const IPHONE: Iphone[] = [
   },
   {
     id: 2,
-    picture:
-      "https://d1dwhi9yny5dep.cloudfront.net/cm_live/79e31cb5e65e7fdfc2916c8.mobile-gallery-large.jpg",
+    picture: "https://www.edcom.fr/img/misc/coloris-iphone7plus.jpg",
     name: "Iphone 7 Plus",
     processeur: "Apple A10",
     ram: "3 Go",
@@ -77,8 +76,7 @@ export const IPHONE: Iphone[] = [
   },
   {
     id: 6,
-    picture:
-      "https://unite4buy.ru/media/images/2020/04/19/iphone-xr-1_zBWBkZ8.jpg",
+    picture: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-xr-1.jpg",
     name: "Iphone xr",
     processeur: "A12 Bionic Apple",
     ram: "3 Go",
@@ -93,7 +91,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 7,
     picture:
-      "https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-xs/iphone-xs-gold.jpg",
+      "https://images.frandroid.com/wp-content/uploads/2019/04/iphone-xs-2018.png",
     name: "Iphone xs",
     processeur: " A12 Bionic Apple",
     ram: "4 Go",
@@ -123,7 +121,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 9,
     picture:
-      "https://media-cdn.bnn.in.th/11963/Apple-iPhone-11-64GB-Green-1.jpg",
+      "https://i.insider.com/5d77febe2e22af0d943d8e34?width=750&format=jpeg&auto=webp",
     name: "Iphone 11",
     processeur: "A13 Bionic Apple",
     ram: "4 Go",
@@ -252,6 +250,66 @@ export const IPHONE: Iphone[] = [
     taille: "6.7 pouces",
     camera: " triple capteur photo de 12+12+12 mégapixels",
     capacite: "128 et 256 giga",
+    couleurs: "Noire, Blanche, Bleue, Verte ",
+    prix: "730000 et 760000 Fcfa",
+    garantie: "3 mois",
+  },
+  {
+    id: 18,
+    picture:
+      "https://med.greatecno.com/645855/apple-iphone-14-128go-violet.jpg",
+    name: "Iphone 14",
+    processeur: "A16 Bionic Apple",
+    ram: "6 Go",
+    batterie: "3,279 mAh",
+    taille: "6.1 pouces",
+    camera: " 12 Mpx 2 capteurs",
+    capacite: "128, 256 et 512 giga",
+    couleurs: "Noire, Blanche, Bleue, Verte ",
+    prix: "650000, 700000 et 750000 Fcfa",
+    garantie: "3 mois",
+  },
+  {
+    id: 19,
+    picture:
+      "http://d2r9epyceweg5n.cloudfront.net/stores/001/248/099/products/iphone-14-plus-colors21-1b640602a9dac6a0a416648987444389-640-0.png",
+    name: "Iphone 14 Plus",
+    processeur: "A16 Bionic Apple",
+    ram: "6 Go",
+    batterie: "4352 mAh",
+    taille: "6.7 pouces",
+    camera: " 12 Mpx 2 capteurs",
+    capacite: "128, 256 et 512 giga",
+    couleurs: "Noire, Blanche, Bleue, Verte ",
+    prix: "900000, 940000 et 1000000Fcfa",
+    garantie: "3 mois",
+  },
+  {
+    id: 20,
+    picture:
+      "https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png",
+    name: "Iphone 14 Pro",
+    processeur: "A16 Bionic Apple",
+    ram: "6 Go",
+    batterie: "3200 mAh",
+    taille: "6.1 pouces",
+    camera: " 48 Mpx 3 capteurs",
+    capacite: "128, 256 et 512 giga",
+    couleurs: "Noire, Blanche, Bleue, Verte ",
+    prix: "730000 et 760000 Fcfa",
+    garantie: "3 mois",
+  },
+  {
+    id: 20,
+    picture:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6487/6487484_sd.jpg;maxHeight=640;maxWidth=550",
+    name: "Iphone 14 Pro Max",
+    processeur: "A16 Bionic Apple",
+    ram: "6 Go",
+    batterie: "3200 mAh",
+    taille: "6.7 pouces",
+    camera: " 48+12+12 Mpx 3 téléobjectif * 3",
+    capacite: "128, 256 et 512 giga",
     couleurs: "Noire, Blanche, Bleue, Verte ",
     prix: "730000 et 760000 Fcfa",
     garantie: "3 mois",
