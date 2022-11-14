@@ -15,3 +15,21 @@ a {
   }
 }
 **/
+.brand-logo img {
+  height: 63.5px;
+  margin-top: -0.7rem;
+}
+
+@media screen and (max-width: 896px) {
+  .brand-logo img {
+    height: 55.5px;
+    margin-top: -0.65rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .brand-logo img {
+    height: 50px;
+    margin-top: -0.55rem;
+  }
+}
