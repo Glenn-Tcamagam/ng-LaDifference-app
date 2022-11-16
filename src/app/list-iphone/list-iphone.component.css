@@ -7,8 +7,24 @@
   font-weight: bolder;
 }
 h3 {
-  color: #000;
+  color: #dd7c38;
 }
+#bienvenue {
+  color: #000 !important;
+  font-size: 35px;
+}
+/**
+li img {
+  width: 55rem;
+  margin-left: 26rem;
+}
+**/
+/**
+.slider {
+  width: 50rem;
+  margin-left: 30rem;
+}
+**/
 #cardhorizontal {
   width: 380px;
 }
