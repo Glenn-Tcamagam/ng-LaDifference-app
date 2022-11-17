@@ -198,7 +198,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 14,
     picture:
-      "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-max-2.jpg",
+      "https://merchandising-assets.bestbuy.ca/bltc8653f66842bff7f/blt15ec7c264841e51b/5fa091be432f517518d42103/bbym-20201106-feature-iphone12-pro-max-pre-order-fg-s.png?width=150p&quality=80&auto=webp",
     name: "Iphone 12 Pro Max",
     processeur: " A14 Bionic Apple",
     ram: "6 Go",
