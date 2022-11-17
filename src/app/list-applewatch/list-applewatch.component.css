@@ -9,7 +9,7 @@
 .card-content .ecrisdanscard {
   margin-left: 7rem;
 }
-button {
+button #boutonacheter {
   margin-left: 7rem;
 }
 #cardhorizontal {
@@ -161,7 +161,7 @@ button {
   .card-content .ecrisdanscard {
     margin-left: 2.5rem;
   }
-  button {
+  button #boutonacheter {
     margin-left: 2.5rem;
   }
   .paginate {
