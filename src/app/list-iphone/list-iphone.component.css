@@ -93,7 +93,7 @@ i {
     width: 225px;
   }
   .positionsearch {
-    margin-left: 3rem;
+    margin-left: 30rem;
     display: flex;
   }
   .positioninput {
@@ -147,6 +147,10 @@ i {
 }
 
 @media screen and (max-width: 450px) {
+  .positionsearch {
+    margin-left: 29rem;
+    display: flex;
+  }
   #grand_ecran {
     display: none;
   }
