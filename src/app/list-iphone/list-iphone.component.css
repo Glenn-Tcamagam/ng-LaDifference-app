@@ -148,7 +148,7 @@ i {
 
 @media screen and (max-width: 450px) {
   .positionsearch {
-    margin-left: 29rem;
+    margin-left: 2rem;
     display: flex;
   }
   #grand_ecran {
