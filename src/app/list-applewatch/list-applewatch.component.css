@@ -156,13 +156,13 @@ button {
     color: black !important;
   }
   .card-image img {
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
   .card-content .ecrisdanscard {
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
   button {
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
   .paginate {
     width: 240px;
@@ -211,15 +211,6 @@ button {
 }
 
 @media screen and (max-width: 450px) {
-  .card-image img {
-    margin-left: 3rem;
-  }
-  .card-content .ecrisdanscard {
-    margin-left: 3.5rem;
-  }
-  button {
-    margin-left: 3.5rem;
-  }
   .paginate {
     width: 240px;
     margin-left: 6rem;

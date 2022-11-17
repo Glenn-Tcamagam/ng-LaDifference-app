@@ -132,13 +132,13 @@ i {
     color: black !important;
   }
   .card-image img {
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
   .card-content .ecrisdanscard {
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
   button {
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
   .paginate {
     width: 240px;
@@ -176,15 +176,7 @@ i {
   #petit_ecran {
     display: initial;
   }
-  .card-image img {
-    margin-left: 3rem;
-  }
-  .card-content .ecrisdanscard {
-    margin-left: 3.5rem;
-  }
-  button {
-    margin-left: 3.5rem;
-  }
+
   .paginate {
     width: 240px;
     margin-left: 6rem;
