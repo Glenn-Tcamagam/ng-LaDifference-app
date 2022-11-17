@@ -205,12 +205,12 @@
   }
   .display-image .card {
     width: 300px;
-    height: 355px;
+    height: 365px;
     font-size: 10px;
     margin-left: 5rem;
   }
   #tailleimage {
-    height: 300px;
+    height: 330px;
   }
   .display-image {
     display: initial;
