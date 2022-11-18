@@ -171,7 +171,7 @@ i {
 
 @media screen and (max-width: 820px) {
   .positionsearch {
-    margin-left: 12rem;
+    margin-left: 11rem;
     display: flex;
   }
   .positioninput {
@@ -179,15 +179,26 @@ i {
   }
   #backgroudtexte {
     width: 45rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
     text-align: center;
+  }
+  .titre {
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .soustitre {
+    font-size: 16px;
+    color: gray;
   }
 }
 
 @media screen and (max-width: 450px) {
   .positionsearch {
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     display: flex;
+  }
+  .positioninput {
+    width: 400px;
   }
   #grand_ecran {
     display: none;
@@ -210,7 +221,7 @@ i {
     text-align: center;
   }
   .soustitre {
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
   }
 }
