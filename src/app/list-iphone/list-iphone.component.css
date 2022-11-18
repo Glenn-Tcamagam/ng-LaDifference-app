@@ -41,7 +41,7 @@ li img {
 .card-content .ecrisdanscard {
   margin-left: 7rem;
 }
-button #boutonacheter {
+#boutonacheter {
   margin-left: 7rem;
 }
 .paginate {
@@ -102,7 +102,7 @@ i {
     width: 225px;
   }
   .positionsearch {
-    margin-left: 30rem;
+    margin-left: 5rem;
     display: flex;
   }
   .positioninput {
@@ -137,7 +137,7 @@ i {
   .card-content .ecrisdanscard {
     margin-left: 2.5rem;
   }
-  button #boutonacheter {
+  #boutonacheter {
     margin-left: 2.5rem;
   }
   .paginate {

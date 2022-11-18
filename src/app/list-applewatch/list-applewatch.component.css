@@ -9,7 +9,7 @@
 .card-content .ecrisdanscard {
   margin-left: 7rem;
 }
-button #boutonacheter {
+#boutonacheter {
   margin-left: 7rem;
 }
 #cardhorizontal {
@@ -67,6 +67,7 @@ button #boutonacheter {
 }
 #tailleimage {
   height: 370px;
+  margin-left: 0rem;
 }
 .display-image {
   display: flex;
@@ -161,7 +162,7 @@ button #boutonacheter {
   .card-content .ecrisdanscard {
     margin-left: 2.5rem;
   }
-  button #boutonacheter {
+  #boutonacheter {
     margin-left: 2.5rem;
   }
   .paginate {
