@@ -199,3 +199,24 @@ i {
     color: gray;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .positionsearch {
+    margin-left: 1.5rem;
+    display: flex;
+  }
+  .positioninput {
+    width: 250px;
+  }
+  #backgroudtexte {
+    width: 24rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  #nosIphones {
+    margin-left: 5rem;
+  }
+  .container {
+    margin-left: -2rem;
+  }
+}

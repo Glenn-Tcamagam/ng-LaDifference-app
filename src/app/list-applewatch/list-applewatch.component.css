@@ -246,3 +246,29 @@
     display: initial;
   }
 }
+@media screen and (max-width: 450px) {
+  #nosapplewatchs {
+    margin-left: 5rem;
+  }
+  .container {
+    margin-left: -2rem;
+  }
+  .soustitre {
+    margin-left: 1.5rem;
+    font-size: 12px;
+    color: gray;
+    width: 320px;
+  }
+  .display-image .card {
+    width: 300px;
+    height: 385px;
+    font-size: 10px;
+    margin-left: 2.2rem;
+  }
+  #boutonposition {
+    margin-left: 3rem;
+    width: 20rem;
+    height: 3rem;
+    color: white;
+  }
+}
