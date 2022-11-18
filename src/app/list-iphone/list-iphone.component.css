@@ -37,6 +37,8 @@ li img {
 }
 .card-image img {
   margin-left: 6.5rem;
+  height: 175px;
+  width: 190px;
 }
 .card-content .ecrisdanscard {
   margin-left: 7rem;
@@ -133,6 +135,8 @@ i {
   }
   .card-image img {
     margin-left: 4rem;
+    height: 150px;
+    width: 350px;
   }
   .card-content .ecrisdanscard {
     margin-left: 2.5rem;
