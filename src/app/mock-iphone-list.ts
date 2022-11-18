@@ -121,7 +121,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 9,
     picture:
-      "https://i.insider.com/5d77febe2e22af0d943d8e34?width=750&format=jpeg&auto=webp",
+      "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large.jpg",
     name: "Iphone 11",
     processeur: "A13 Bionic Apple",
     ram: "4 Go",
@@ -167,8 +167,7 @@ export const IPHONE: Iphone[] = [
   },
   {
     id: 12,
-    picture:
-      "https://www.aflo.cm/wp-content/uploads/2021/05/iPhone_12_Lineup_Screen__WWEN.jpg",
+    picture: "https://pic.clubic.com/v1/images/1831670/raw",
     name: "Iphone 12",
     processeur: " Apple A14 Bionic",
     ram: "4 Go",
