@@ -190,3 +190,52 @@
     margin-left: 17rem;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .petittexte {
+    margin-left: 0.9rem;
+    font-size: 18px;
+    height: 300px;
+    width: 25rem;
+  }
+  .card-panel {
+    margin-left: -6.8rem;
+    width: 24.2rem;
+  }
+  #positioncard {
+    width: 25.4rem;
+    margin-left: 14.6rem;
+  }
+  #positioncard2 {
+    width: 25.4rem;
+    height: 380px;
+    margin-left: 14.6rem;
+  }
+  #positioncard3 {
+    width: 25.4rem;
+    height: 194px;
+    margin-left: 14.6rem;
+  }
+  #positioninsidecard1 {
+    margin-left: -6rem;
+    margin-top: 0rem;
+    width: 24rem;
+  }
+  #positioninsidecard2 {
+    margin-left: -15.5rem;
+    margin-top: -2.3rem;
+  }
+  #positioninsidecard3 {
+    margin-left: -15.5rem;
+    margin-top: -1rem;
+  }
+  #submit1 {
+    text-align: center;
+    width: 300px;
+    font-weight: bolder;
+    margin-left: 16.5rem;
+  }
+  .positionbutton {
+    text-align: center;
+  }
+}
