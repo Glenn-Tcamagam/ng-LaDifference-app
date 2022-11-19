@@ -226,8 +226,8 @@
   }
   .display-image .card {
     width: 450px;
-    height: 555px;
-    font-size: 10px;
+    height: 560px;
+    font-size: 12px;
     margin-left: 13rem;
   }
   #tailleimage {
@@ -260,7 +260,7 @@
   }
   .display-image .card {
     width: 300px;
-    height: 385px;
+    height: 395px;
     font-size: 10px;
     margin-left: 4rem;
   }
@@ -291,7 +291,7 @@
   }
   .display-image .card {
     width: 300px;
-    height: 385px;
+    height: 395px;
     font-size: 10px;
     margin-left: 2.2rem;
   }
