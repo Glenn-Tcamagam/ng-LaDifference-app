@@ -35,16 +35,17 @@
                 font-weight: bolder;
               }
             </style>
-            <br />
-            <!--<button
-              class="btn btn-secondary"
+            <span id="id1"><br /></span>
+            <button
+              class="btn btn-warning"
               (click)="goTodetailapplewatch(applewatch)"
               id="plus-de-detail"
             >
               <span>Plus de details</span>
-            </button>-->
+            </button>
 
-            &nbsp;
+            <!--
+              &nbsp;
             <button
               id="boutonacheter"
               (click)="goToapplewatchacheter(applewatch)"
@@ -52,6 +53,7 @@
             >
               ACHETER
             </button>
+            -->
           </div>
         </div>
       </div>
@@ -64,6 +66,7 @@
 <style>
   #plus-de-detail {
     font-size: 10.3px;
+    font-weight: bolder;
   }
 </style>
 <br /><br /><br />
@@ -207,10 +210,11 @@
     </div>
   </div>
   <a
-    href="galerie.html"
+    [routerLink]="['/visitergalerie']"
     class="waves-effect light-blue darken-4 btn"
     id="boutonposition"
+    (click)="(goTovisitergalerie)"
   >
-    <i class="material-icons left">camera_alt </i> visiter notre galerie</a
-  >
+    <i class="material-icons left">camera_alt </i> visiter notre galerie
+  </a>
 </div>

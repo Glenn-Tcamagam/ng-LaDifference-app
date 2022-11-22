@@ -3,7 +3,7 @@ import { Applewatch } from "../applewatch";
 import { APPLEWATCH } from "../mock-applewatch-list";
 import { Router } from "@angular/router";
 import { Iphone } from "../iphone";
-import { VisitergalerieComponent } from "../visitergalerie/visitergalerie.component";
+
 @Component({
   selector: "app-list-applewatch",
   templateUrl: "./list-applewatch.component.html",
@@ -26,7 +26,7 @@ export class ListApplewatchComponent implements OnInit {
   goToapplewatchacheter(applewatch: Applewatch) {
     this.router.navigate(["/applewatchacheter", applewatch.id]);
   }
-  goToVisiterGalerie(iphone: Iphone) {
-    this.router.navigate(["/visitergalerie", VisitergalerieComponent]);
+  goTovisitergalerie() {
+    this.router.navigate(["/visitergalerie"]);
   }
 }

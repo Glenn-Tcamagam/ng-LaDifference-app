@@ -26,7 +26,7 @@ li img {
 **/
 #grand_ecran {
   width: 50rem;
-  margin-left: 30rem;
+  margin-left: 25rem;
 }
 #petit_ecran {
   display: none;
@@ -43,7 +43,7 @@ li img {
 .card-content .ecrisdanscard {
   margin-left: 7rem;
 }
-#boutonacheter {
+#plus-de-detail {
   margin-left: 7rem;
 }
 .paginate {
@@ -141,8 +141,8 @@ i {
   .card-content .ecrisdanscard {
     margin-left: 2.5rem;
   }
-  #boutonacheter {
-    margin-left: 2.5rem;
+  #plus-de-detail {
+    margin-left: 2rem;
   }
   .paginate {
     width: 240px;
