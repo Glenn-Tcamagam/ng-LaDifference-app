@@ -12,13 +12,13 @@ import { Iphone } from "../iphone";
 export class ListApplewatchComponent implements OnInit {
   applewatchList: Applewatch[] = APPLEWATCH;
   pa: number = 1;
-  filterinputsearch: Applewatch[] = [];
+  filterinputsearch2: Applewatch[] = [];
   applewatch: Applewatch;
 
   constructor(private router: Router) {}
 
   ngOnInit(): void {
-    this.filterinputsearch = this.applewatchList;
+    this.filterinputsearch2 = this.applewatchList;
   }
   goTodetailapplewatch(applewatch: Applewatch) {
     this.router.navigate(["/applewatch", applewatch.id]);
