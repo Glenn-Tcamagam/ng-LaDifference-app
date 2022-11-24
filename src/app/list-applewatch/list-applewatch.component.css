@@ -164,13 +164,13 @@
 
 @media screen and (max-width: 820px) {
   .appleiphone {
-    margin-left: 7rem;
+    margin-left: 4rem;
   }
   #cardhorizontal {
     margin-left: 0rem;
   }
   .titre {
-    margin-left: 7rem;
+    margin-left: 9rem;
   }
   .soustitre {
     margin-left: 10rem;
@@ -214,6 +214,9 @@
     height: 3rem;
     color: white;
   }
+  .titre {
+    margin-left: 7rem;
+  }
   .soustitre {
     margin-left: 1.5rem;
     font-size: 15px;
@@ -249,6 +252,9 @@
   }
   .container {
     margin-left: -1.5rem;
+  }
+  .titre {
+    margin-left: 6rem;
   }
   .soustitre {
     margin-left: 2rem;
