@@ -51,7 +51,7 @@
 }
 .titre {
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 26px;
   margin-left: 15rem;
 }
 .soustitre {
@@ -75,6 +75,13 @@
 .display-image {
   display: flex;
   margin-left: 10rem;
+}
+#boutonmodal {
+  margin-left: 40rem;
+  width: 15rem;
+}
+#couleurfermer {
+  color: #ffd700;
 }
 
 /** DEBUT RESPONSIVE**/
@@ -159,8 +166,11 @@
   .appleiphone {
     margin-left: 7rem;
   }
+  #cardhorizontal {
+    margin-left: 0rem;
+  }
   .titre {
-    margin-left: 9rem;
+    margin-left: 7rem;
   }
   .soustitre {
     margin-left: 10rem;
@@ -182,6 +192,10 @@
     width: 20rem;
     height: 3rem;
     color: white;
+  }
+  #boutonmodal {
+    margin-left: 22rem;
+    width: 15rem;
   }
 }
 
@@ -224,6 +238,10 @@
   #bloque {
     display: initial;
   }
+  #boutonmodal {
+    margin-left: 10rem;
+    width: 10rem;
+  }
 }
 @media screen and (max-width: 375px) {
   #nosapplewatchs {
@@ -249,5 +267,12 @@
     width: 20rem;
     height: 3rem;
     color: white;
+  }
+  #boutonmodal {
+    margin-left: 7rem;
+    width: 13rem;
+  }
+  a #couleurfermer {
+    color: #ffd700;
   }
 }

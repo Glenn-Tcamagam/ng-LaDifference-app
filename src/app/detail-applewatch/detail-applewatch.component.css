@@ -1,6 +1,9 @@
 * {
   font-family: "PT Serif", serif;
 }
+.colorier {
+  color: #ffd700;
+}
 .fleximage {
   display: flex;
   margin-left: 0rem;
