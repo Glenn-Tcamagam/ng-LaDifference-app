@@ -1,3 +1,6 @@
+* {
+  font-family: "PT Serif", serif;
+}
 .fleximage {
   display: flex;
   margin-left: 0rem;

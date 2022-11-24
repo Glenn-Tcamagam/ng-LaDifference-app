@@ -97,7 +97,7 @@ i {
   text-align: center;
 }
 .soustitre {
-  font-size: 23px;
+  font-size: 25px;
   color: gray;
 }
 /** DEBUT RESPONSIVE**/
@@ -164,7 +164,7 @@ i {
   }
   .titre {
     font-weight: bolder;
-    font-size: 19px;
+    font-size: 20px;
   }
   #backgroudtexte {
     width: 450px;
@@ -172,7 +172,7 @@ i {
     text-align: center;
   }
   .soustitre {
-    font-size: 14px;
+    font-size: 16px;
     color: gray;
   }
 }
@@ -192,10 +192,10 @@ i {
   }
   .titre {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 22px;
   }
   .soustitre {
-    font-size: 16px;
+    font-size: 18px;
     color: gray;
   }
 }
@@ -221,7 +221,7 @@ i {
   }
   .titre {
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 19px;
   }
   #backgroudtexte {
     width: 27rem;
@@ -229,7 +229,7 @@ i {
     text-align: center;
   }
   .soustitre {
-    font-size: 14px;
+    font-size: 16px;
     color: gray;
   }
 }
