@@ -1,3 +1,6 @@
+* {
+  font-family: "PT Serif", serif;
+}
 /** DEBUT RESPONSIVE**/
 
 @media screen and (max-width: 896px) {
