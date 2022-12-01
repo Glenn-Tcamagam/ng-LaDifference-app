@@ -26,15 +26,16 @@ h5 {
   #notregalerie {
     margin-left: 22rem;
   }
+  img {
+    height: 500px;
+  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   #notregalerie {
     margin-left: 7rem;
   }
-}
-@media screen and (max-width: 420px) {
-  #notregalerie {
-    margin-left: 5.5rem;
+  img {
+    height: 350px;
   }
 }

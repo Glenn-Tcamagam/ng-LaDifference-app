@@ -8,6 +8,8 @@
 }
 .card-image img {
   margin-left: 6.5rem;
+  height: 200px;
+  width: 349px;
 }
 .card-content .ecrisdanscard {
   margin-left: 7rem;
@@ -166,6 +168,10 @@
   .appleiphone {
     margin-left: 4rem;
   }
+  .card-image img {
+    height: 180px;
+    width: 449px;
+  }
   #cardhorizontal {
     margin-left: 0rem;
   }
@@ -203,6 +209,10 @@
   #cardhorizontal {
     width: 225px;
     margin-left: 0.2rem;
+  }
+  .card-image img {
+    height: 180px;
+    width: 300px;
   }
   .paginate {
     width: 240px;

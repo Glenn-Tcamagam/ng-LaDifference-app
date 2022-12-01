@@ -8,7 +8,7 @@ export const APPLEWATCH: Applewatch[] = [
     picture2:
       "https://i5.walmartimages.com/asr/b91845e3-7cd1-4fdf-a1ca-c5553965a60a_1.c57721e160249974b34903261beb0260.jpeg",
     picture3:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr3VDQ0jNqu-NfKGqAhSbzlrGblSjZ62qqIi0qihBIqulKMYnHabrVDJTYSlyGdUKFRA&usqp=CAU",
+      "https://static.fnac-static.com/multimedia/Images/FR/NR/b5/b9/74/7649717/1505-1/tsp20160927100415/Apple-Watch-Series-1-38-mm-Boitier-en-Aluminium-Or-avec-Bracelet-Sport-Gris-Ciment.jpg",
     name: "Apple Watch série 1",
     systeme: "WatchOS 3",
     systeme_compatible: "iOS 8 et plus",
@@ -31,7 +31,7 @@ export const APPLEWATCH: Applewatch[] = [
     picture1:
       "https://static.fnac-static.com/multimedia/Images/FR/NR/64/76/7f/8353380/1540-1/tsp20160908202044/Apple-Watch-Series-2-38-mm-Boitier-en-Acier-inoxydable-avec-Bracelet-Sport-Blanc.jpg",
     picture2:
-      "https://www.cdiscount.com/pdt2/5/2/8/1/300x300/auc3562678507528/rw/apple-watch-series-2-gps-noir-aluminium-38-mm.jpg",
+      "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP746/alu-spacegray-nike.jpg",
     picture3:
       "https://static.fnac-static.com/multimedia/Images/FR/NR/57/76/7f/8353367/1505-1/tsp20160908202044/Apple-Watch-Series-2-38-mm-Boitier-en-Acier-inoxydable-avec-Bracelet-Boucle-moderne-Bleu-Nuit-Taille-L.jpg",
     name: "Apple Watch série 2",
@@ -53,7 +53,7 @@ export const APPLEWATCH: Applewatch[] = [
   {
     id: 3,
     picture1:
-      "https://www.tomsguide.fr/content/uploads/sites/2/cache/2022/01/montre-apple-watch-series-6-promo-amazon/2685513576.jpg",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FQL42?wid=1673&hei=1353&fmt=jpeg&qlt=95&.v=1527703100142",
     picture2: "https://m.media-amazon.com/images/I/51UCvY6cOGL._AC_SX679_.jpg",
     picture3: "https://m.media-amazon.com/images/I/71fwbMm1NBL._AC_SX342_.jpg",
     name: "Apple Watch série 3",
@@ -77,7 +77,7 @@ export const APPLEWATCH: Applewatch[] = [
     picture1:
       "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_gold-stainless-steel_09122018_carousel.jpg.large.jpg",
     picture2:
-      "https://www.cdiscount.com/pdt2/9/7/9/1/700x700/app0190198928979/rw/apple-watch-series-4-gps-cellular-44mm-boitier.jpg",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FWVF2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1580325951999",
     picture3:
       "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_walkie-talkie_09122018_carousel.jpg.large.jpg",
     name: "Apple Watch série 4",
@@ -99,7 +99,7 @@ export const APPLEWATCH: Applewatch[] = [
   {
     id: 5,
     picture1:
-      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/889ebeed-f9dc-4921-8cec-6964a714fe02/montre-a-boitier-en-aluminium-argent-44-mm-apple-watch-series-5-avec-bracelet-sport-nike-open-box-CK2j72.png",
+      "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-space-black-titanium-case-viper-dark-091019_carousel.jpg.large.jpg",
     picture2:
       "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-silver-aluminum-case-camel-band-091019_carousel.jpg.large.jpg",
     picture3:
@@ -123,7 +123,7 @@ export const APPLEWATCH: Applewatch[] = [
   {
     id: 6,
     picture1:
-      "https://images.frandroid.com/wp-content/uploads/2020/09/apple-watch-se-frandroid-2020.png",
+      "https://www.cdiscount.com/pdt2/2/4/6/1/700x700/app0194252588246/rw/apple-watch-series-7-gps-41mm-boitier-midnight.jpg",
     picture2:
       "https://www.cdiscount.com/pdt2/2/4/6/1/700x700/app0194252588246/rw/apple-watch-series-7-gps-41mm-boitier-midnight.jpg",
     picture3: "https://m.media-amazon.com/images/I/71QfZshbZEL._AC_UL320_.jpg",
@@ -150,7 +150,7 @@ export const APPLEWATCH: Applewatch[] = [
     picture2:
       "https://www.club-achat-cameroun.com/wp-content/uploads/products/apl0/APL0190199882461.jpg",
     picture3:
-      "https://cdn1.bestsellers.ma/wp-content/uploads/2022/02/Apple-watch-series-6-cover1.jpg",
+      "https://static.fnac-static.com/multimedia/Images/FR/MDM/c2/c9/8d/9292226/1505-1/tsp20220617173954/Apple-Watch-Series-6-GPS-44mm-boitier-aluminium-or-avec-bracelet-sport-rose.jpg",
     name: "Apple Watch Série 6",
     systeme: "WatchOS 6",
     systeme_compatible: "iOS",

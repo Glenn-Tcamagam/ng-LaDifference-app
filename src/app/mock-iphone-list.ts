@@ -4,16 +4,17 @@ export const IPHONE: Iphone[] = [
   {
     id: 1,
     picture:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP917sY_CironjGyMWuCZ8NQ-s5yyQOkgDLpcBJmWMFn9VkHO0GTz4Ua9vi3avFwhLBTg&usqp=CAU",
+      "https://cdn.shopify.com/s/files/1/0275/5654/4599/products/Apple-iPhone-7-Noir_300x300.jpg?v=1648385538",
     name: "Iphone 7",
     processeur: "A10 Fusion",
     ram: "2 Go",
     batterie: "1960 mAh",
     taille: "4,7 pouces",
     camera: "12 Mpx Simple capteu",
+    couleurs: "Noir, Blanc, Rouge, Rose",
     capacite: "32, 128 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "70000, 80000 et 85000 Fcfa",
+
+    prix: "70.000, 80.00 et 85.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -25,9 +26,10 @@ export const IPHONE: Iphone[] = [
     batterie: "2900 mAh",
     taille: "5.5 pouces",
     camera: "double capteur photo de 12 mégapixels",
+    couleurs: "Noir, Blanc, Rouge, Rose",
     capacite: "32, 128 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "110000, 130000 et 140000 Fcfa",
+
+    prix: "105.000, 120.000 et 130.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -40,9 +42,10 @@ export const IPHONE: Iphone[] = [
     batterie: "1960 mAh",
     taille: "4.7. pouces",
     camera: "12 Mpx Simple capteur",
-    capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "105000 et 130000 Fcfa",
+    couleurs: "Noir, Blanc, Rouge, Gold",
+    capacite: "64, 128 et 256 giga",
+
+    prix: "105.000, 120.000 130.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -55,9 +58,10 @@ export const IPHONE: Iphone[] = [
     batterie: "2900 mAh",
     taille: "5.5 pouces",
     camera: "12 Mpx 2 capteur",
+    couleurs: "Noir, Blanc, Rouge, Gold",
     capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "145000 et 160000 Fcfa",
+
+    prix: "140.000 et 155.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -69,9 +73,10 @@ export const IPHONE: Iphone[] = [
     batterie: "2900 mAh",
     taille: "5.8 pouces",
     camera: "12 Mpx 2 capteurs",
+    couleurs: "Noir et Blanc",
     capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "1550000 et 180000 Fcfa",
+
+    prix: "150.000 et 165.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -83,9 +88,10 @@ export const IPHONE: Iphone[] = [
     batterie: "2942 mAh",
     taille: "6.1 pouces",
     camera: "12 Mpx Simple capteur",
+    couleurs: "Noir, Blanc, Rouge, Bleu, Jaune, Orange, Rose",
     capacite: "64, 128 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "170000 et 185000 Fcfa",
+
+    prix: "165.000, 185.000 et 200.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -98,9 +104,10 @@ export const IPHONE: Iphone[] = [
     batterie: "2658 mAh",
     taille: "5.8 pouces",
     camera: "12 Mpx 2 capteurs",
+    couleurs: "Noir, Blanc, Gold",
     capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "185000 et 200000 Fcfa",
+
+    prix: "180.000 et 205.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -113,10 +120,11 @@ export const IPHONE: Iphone[] = [
     batterie: "2,658 mAh",
     taille: "6.5 pouces",
     camera: "12 Mpx 2 capteurs",
+    couleurs: "Noir, Blanc, Gold",
     capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "225000 et 250000 Fcfa",
-    garantie: "2 mois",
+
+    prix: "225.000 et 245.000 Fcfa",
+    garantie: "1 mois",
   },
   {
     id: 9,
@@ -128,10 +136,11 @@ export const IPHONE: Iphone[] = [
     batterie: "3110 mAh",
     taille: "6.1 pouces",
     camera: "12 Mpx, 12 Mpx",
+    couleurs: "Noir, Blanc, Rouge, Jaune, Vert, Violet",
     capacite: "64 et 128 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "240000, 260000 et 290000 Fcfa",
-    garantie: "2 mois",
+
+    prix: "235.000, 260.000 et 280.000 Fcfa",
+    garantie: "1 mois",
   },
   {
     id: 10,
@@ -144,10 +153,11 @@ export const IPHONE: Iphone[] = [
     taille: "5.8 pouces",
     camera:
       " capteur principal (12 Mpix), un téléobjectif (12 Mpix) et un ultra grand angle (12 Mpix)",
+    couleurs: "Noir, Blanc, Vert, Gold",
     capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "290000 et 320000 Fcfa",
-    garantie: "2 mois",
+
+    prix: "295.000 et 320.000 Fcfa",
+    garantie: "1 mois",
   },
   {
     id: 11,
@@ -160,23 +170,26 @@ export const IPHONE: Iphone[] = [
     taille: "6.5 pouces",
     camera:
       "triple module caméra avec grand-angle (12 Mpix), téléobjectif (12 Mpix) et ultra grand-angle (12 Mpix)",
+    couleurs: "Noir, Blanche, Gold",
     capacite: "64 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "360000 et 390000 Fcfa",
+
+    prix: "340.000 et 370.000 Fcfa",
     garantie: "2 mois",
   },
   {
     id: 12,
-    picture: "https://pic.clubic.com/v1/images/1831670/raw",
+    picture:
+      "https://www.boutika.co.ma/34074-large_default/apple-iphone-12.jpg",
     name: "Iphone 12",
     processeur: " Apple A14 Bionic",
     ram: "4 Go",
     batterie: " 2 815 mAh",
     taille: "6.1 pouces",
     camera: "12 Mpx 2 capteurs",
+    couleurs: "Noir, Blanc, Rose, Bleu",
     capacite: "64 et 128 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "340000 et 360000 Fcfa",
+
+    prix: "330.000 et 350.000 Fcfa",
     garantie: "2 mois",
   },
   {
@@ -189,9 +202,10 @@ export const IPHONE: Iphone[] = [
     batterie: " 2815 mAh",
     taille: "6.1 pouces",
     camera: "12 Mpx 3 capteurs",
+    couleurs: "Noir, Blanc, Bleu, Vert",
     capacite: "128 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "480000 et 500000 Fcfa",
+
+    prix: "470.000 et 490.00 Fcfa",
     garantie: "2 mois",
   },
   {
@@ -204,10 +218,11 @@ export const IPHONE: Iphone[] = [
     batterie: " 3687 mAh",
     taille: "6.7 pouces",
     camera: "12 Mpx 3 capteurs",
+    couleurs: "Noir, Blanc, Bleu, Vert, Gold",
     capacite: "128 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "560000 et 590000 Fcfa",
-    garantie: "3 mois",
+
+    prix: "510.000 et 550.000 Fcfa",
+    garantie: "2 mois",
   },
   {
     id: 15,
@@ -218,10 +233,11 @@ export const IPHONE: Iphone[] = [
     batterie: "3 227 mAh",
     taille: " 6,1 pouces",
     camera: "12+12 mégapixels",
+    couleurs: "Noir, Blanc, Bleu, Rouge, Rose",
     capacite: "128 et 256 giga",
-    couleurs: "Noir, Blanche, Rouge, Rose",
-    prix: "520000 et 550000 Fcfa",
-    garantie: "3 mois",
+
+    prix: "500.000 et 540.000 Fcfa",
+    garantie: "2 mois",
   },
   {
     id: 16,
@@ -233,10 +249,11 @@ export const IPHONE: Iphone[] = [
     batterie: "3095 mAh",
     taille: "6.1 pouces",
     camera: "12 Mpx 3 capteurs",
+    couleurs: "Noire, Blanc, Bleu, Vert",
     capacite: "128 et 256 giga",
-    couleurs: "Noire, Blanche, Bleue, Verte",
-    prix: "650000 et 6800000 Fcfa",
-    garantie: "3 mois",
+
+    prix: "600.000 et 640.000 Fcfa",
+    garantie: "2 mois",
   },
   {
     id: 17,
@@ -248,9 +265,10 @@ export const IPHONE: Iphone[] = [
     batterie: "4352 mAh",
     taille: "6.7 pouces",
     camera: " triple capteur photo de 12+12+12 mégapixels",
+    couleurs: "Noire, Blanc, Bleu, Vert ",
     capacite: "128 et 256 giga",
-    couleurs: "Noire, Blanche, Bleue, Verte ",
-    prix: "730000 et 760000 Fcfa",
+
+    prix: "690.000 et 720.000 Fcfa",
     garantie: "3 mois",
   },
   {
@@ -263,9 +281,10 @@ export const IPHONE: Iphone[] = [
     batterie: "3,279 mAh",
     taille: "6.1 pouces",
     camera: " 12 Mpx 2 capteurs",
+    couleurs: "Noire, Bleue, Violet ",
     capacite: "128, 256 et 512 giga",
-    couleurs: "Noire, Blanche, Bleue, Verte ",
-    prix: "650000, 700000 et 750000 Fcfa",
+
+    prix: "650.000, 700.000 et 740.000 Fcfa",
     garantie: "3 mois",
   },
   {
@@ -278,9 +297,10 @@ export const IPHONE: Iphone[] = [
     batterie: "4352 mAh",
     taille: "6.7 pouces",
     camera: " 12 Mpx 2 capteurs",
-    capacite: "128, 256 et 512 giga",
     couleurs: "Noire, Blanche, Bleue, Verte ",
-    prix: "900000, 940000 et 1000000Fcfa",
+    capacite: "128, 256 et 512 giga",
+
+    prix: "900.000, 940.000 et 1.000.000Fcfa",
     garantie: "3 mois",
   },
   {
@@ -293,9 +313,10 @@ export const IPHONE: Iphone[] = [
     batterie: "3200 mAh",
     taille: "6.1 pouces",
     camera: " 48 Mpx 3 capteurs",
+    couleurs: "Noire, Bleu, Vert, Or ",
     capacite: "128, 256 et 512 giga",
-    couleurs: "Noire, Blanche, Bleue, Verte ",
-    prix: "730000 et 760000 Fcfa",
+
+    prix: "950.000 et 990.000 Fcfa",
     garantie: "3 mois",
   },
   {
@@ -308,9 +329,9 @@ export const IPHONE: Iphone[] = [
     batterie: "3200 mAh",
     taille: "6.7 pouces",
     camera: " 48+12+12 Mpx 3 téléobjectif * 3",
+    couleurs: "Noire, Blanche, Bleue, Verte, Or ",
     capacite: "128, 256 et 512 giga",
-    couleurs: "Noire, Blanche, Bleue, Verte ",
-    prix: "730000 et 760000 Fcfa",
+    prix: "1.070.000 et 1.100.000 Fcfa",
     garantie: "3 mois",
   },
 ];

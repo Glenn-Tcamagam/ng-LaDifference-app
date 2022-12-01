@@ -1,4 +1,4 @@
-* {
+body {
   font-family: "PT Serif", serif;
 }
 #nosIphones {
@@ -9,16 +9,21 @@
 #sofack {
   font-weight: bolder;
 }
+
 h3 {
+  margin-top: 4rem;
+
   color: #ffbf00;
 
   font-weight: bolder;
 }
+
 #bienvenue {
   color: #000 !important;
   font-size: 30px;
 }
 h5 {
+  color: #000 !important;
   font-weight: bolder;
 }
 /**
@@ -80,7 +85,8 @@ pagination-template {
   display: none;
 }
 i {
-  font-size: 30px;
+  margin-top: -0.5rem;
+  font-size: 35px;
   text-align: center;
 }
 #buttonsearch {
@@ -188,6 +194,11 @@ i {
   #backgroudtexte {
     width: 45rem;
     margin-left: 5rem;
+    text-align: center;
+  }
+  i {
+    margin-top: -0.5rem;
+    font-size: 30px;
     text-align: center;
   }
   .titre {
