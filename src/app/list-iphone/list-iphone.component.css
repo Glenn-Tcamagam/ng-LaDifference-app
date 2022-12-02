@@ -1,6 +1,7 @@
 body {
   font-family: "PT Serif", serif;
 }
+
 #nosIphones {
   margin-left: 10rem;
   font-size: 40px;
@@ -17,7 +18,11 @@ h3 {
 
   font-weight: bolder;
 }
-
+#special {
+  height: 100px;
+  width: 400px;
+  margin-top: -2rem;
+}
 #bienvenue {
   color: #000 !important;
   font-size: 30px;
@@ -225,7 +230,12 @@ i {
   #petit_ecran {
     display: initial;
   }
-
+  #special {
+    height: 57px;
+    width: 350px;
+    margin-top: -1rem;
+    margin-left: -2.1rem;
+  }
   .paginate {
     width: 240px;
     margin-left: 6rem;
