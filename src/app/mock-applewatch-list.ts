@@ -19,10 +19,10 @@ export const APPLEWATCH: Applewatch[] = [
     couleur: "Noire, Blanche, Blue, Rouge, Vert, Violet",
     tactile: "Oui",
     definition_de_l_écran: "272*340",
-    reseau_wifi_supporte: "",
+    reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "",
+    poids: "30 grammes",
     prix: "",
   },
 
@@ -47,7 +47,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "28,2 g",
+    poids: "28,2 grammes",
     prix: "",
   },
   {
@@ -69,7 +69,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "52,8 g",
+    poids: "52,8 grammes",
     prix: "",
   },
   {
@@ -93,7 +93,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "47,9 g",
+    poids: "47,9 grammes",
     prix: "",
   },
   {
@@ -117,7 +117,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "47,8 g",
+    poids: "47,8 grammes",
     prix: "",
   },
   {
@@ -140,7 +140,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "36,4 g",
+    poids: "36,4 grammes",
     prix: "",
   },
   {
@@ -164,7 +164,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "36,4 g",
+    poids: "36,4 grammes",
     prix: "",
   },
   {
@@ -188,7 +188,7 @@ export const APPLEWATCH: Applewatch[] = [
     reseau_wifi_supporte: "WI-Fi 802.11n",
     support_GPS: "Oui",
     fonction_appareil_photo: "Non",
-    poids: "51,5 g",
+    poids: "51,5 grammes",
     prix: "",
   },
 ];

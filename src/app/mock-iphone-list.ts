@@ -14,7 +14,7 @@ export const IPHONE: Iphone[] = [
     couleurs: "Noir, Blanc, Rouge, Rose",
     capacite: "32, 128 et 256 giga",
 
-    prix: "70.000, 80.00 et 85.000 Fcfa",
+    prix: "70.000, 80.000 et 85.000 Fcfa",
     garantie: "1 mois",
   },
   {
@@ -281,7 +281,7 @@ export const IPHONE: Iphone[] = [
     batterie: "3,279 mAh",
     taille: "6.1 pouces",
     camera: " 12 Mpx 2 capteurs",
-    couleurs: "Noire, Bleue, Violet ",
+    couleurs: "Noire, Blanc, Bleu, Rouge, Violet ",
     capacite: "128, 256 et 512 giga",
 
     prix: "650.000, 700.000 et 740.000 Fcfa",
@@ -297,7 +297,7 @@ export const IPHONE: Iphone[] = [
     batterie: "4352 mAh",
     taille: "6.7 pouces",
     camera: " 12 Mpx 2 capteurs",
-    couleurs: "Noire, Blanche, Bleue, Verte ",
+    couleurs: "Noire, Blanche, Bleu, Verte ",
     capacite: "128, 256 et 512 giga",
 
     prix: "900.000, 940.000 et 1.000.000Fcfa",
@@ -313,7 +313,7 @@ export const IPHONE: Iphone[] = [
     batterie: "3200 mAh",
     taille: "6.1 pouces",
     camera: " 48 Mpx 3 capteurs",
-    couleurs: "Noire, Bleu, Vert, Or ",
+    couleurs: "Noire, Blanc, Bleu, Or ",
     capacite: "128, 256 et 512 giga",
 
     prix: "950.000 et 990.000 Fcfa",
@@ -329,7 +329,7 @@ export const IPHONE: Iphone[] = [
     batterie: "3200 mAh",
     taille: "6.7 pouces",
     camera: " 48+12+12 Mpx 3 téléobjectif * 3",
-    couleurs: "Noire, Blanche, Bleue, Verte, Or ",
+    couleurs: "Noire, Blanc, Bleu, Verte, Or ",
     capacite: "128, 256 et 512 giga",
     prix: "1.070.000 et 1.100.000 Fcfa",
     garantie: "3 mois",
