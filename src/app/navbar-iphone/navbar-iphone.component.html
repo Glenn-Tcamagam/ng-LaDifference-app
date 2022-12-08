@@ -1,4 +1,4 @@
-<div class="navbar-fixed">
+<div class="navbar-fixed" id="upward">
   <nav>
     <div class="nav-wrapper amber">
       <a id="nav1" href="#" class="brand-logo">
@@ -10,7 +10,10 @@
         <i class="material-icons">menu </i>
       </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#nosIphones">Iphones</a></li>
+        <!-- <li><a href="#nosIphones">Iphones</a></li>-->
+        <li>
+          <a [routerLink]="['/ListIphone']">Iphones</a>
+        </li>
         <li><a href="#nosapplewatchs">Apple Watch</a></li>
 
         <li><a href="#autreinformation">Autres Informations</a></li>

@@ -16,6 +16,8 @@ const routes: Routes = [
   { path: "applewatch/:id", component: DetailApplewatchComponent },
   { path: "applewatchacheter/:id", component: AcheterApplewatchComponent },
   { path: "visitergalerie", component: VisitergalerieComponent },
+  { path: "ListIphone", component: ListIphoneComponent },
+  { path: ":nosIphones", component: ListIphoneComponent },
   { path: "", redirectTo: "iphones", pathMatch: "full" },
 ];
 

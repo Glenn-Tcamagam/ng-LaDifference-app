@@ -46,6 +46,11 @@
 .nhesitezpas {
   margin-left: 20px;
 }
+#centrerupward {
+  display: block;
+  margin: auto;
+  background-color: #ffd700;
+}
 
 /** DEBUT RESPONSIVE**/
 
