@@ -178,8 +178,7 @@ export const IPHONE: Iphone[] = [
   },
   {
     id: 12,
-    picture:
-      "https://www.boutika.co.ma/34074-large_default/apple-iphone-12.jpg",
+    picture: "https://leaders.jo/wp-content/uploads/2022/07/IPHONE123-1.jpg",
     name: "IPHONE 12",
     processeur: " Apple A14 Bionic",
     ram: "4 Go",
