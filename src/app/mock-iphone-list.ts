@@ -5,7 +5,7 @@ export const IPHONE: Iphone[] = [
     id: 1,
     picture:
       "https://cdn.shopify.com/s/files/1/0275/5654/4599/products/Apple-iPhone-7-Noir_300x300.jpg?v=1648385538",
-    name: "Iphone 7",
+    name: "IPHONE 7",
     processeur: "A10 Fusion",
     ram: "2 Go",
     batterie: "1960 mAh",
@@ -20,7 +20,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 2,
     picture: "https://www.edcom.fr/img/misc/coloris-iphone7plus.jpg",
-    name: "Iphone 7 Plus",
+    name: "IPHONE 7 Plus",
     processeur: "Apple A10",
     ram: "3 Go",
     batterie: "2900 mAh",
@@ -36,7 +36,7 @@ export const IPHONE: Iphone[] = [
     id: 3,
     picture:
       "https://www.cdiscount.com/pdt2/5/9/9/1/700x700/app3344369094599/rw/apple-iphone-8-64go-gris-sideral-reconditionne.jpg",
-    name: "Iphone 8",
+    name: "IPHONE 8",
     processeur: "A11 Bionic. Apple",
     ram: "2 Go",
     batterie: "1960 mAh",
@@ -52,7 +52,7 @@ export const IPHONE: Iphone[] = [
     id: 4,
     picture:
       "https://prem-market.com/media/2022/01/apple-iphone-8-plus-64go-gris-sideral-reconditio.jpg",
-    name: "Iphone 8 Plus",
+    name: "IPHONE 8 Plus",
     processeur: "A11 Bionic Apple",
     ram: "3 Go",
     batterie: "2900 mAh",
@@ -67,7 +67,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 5,
     picture: "https://www.soumari.com/wp-content/uploads/2018/10/Iphone-X.jpg",
-    name: "Iphone x",
+    name: "IPHONE X",
     processeur: "A11 Bionic Apple",
     ram: "3 Go",
     batterie: "2900 mAh",
@@ -82,7 +82,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 6,
     picture: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-xr-1.jpg",
-    name: "Iphone xr",
+    name: "IPHONE XR",
     processeur: "A12 Bionic Apple",
     ram: "3 Go",
     batterie: "2942 mAh",
@@ -98,7 +98,7 @@ export const IPHONE: Iphone[] = [
     id: 7,
     picture:
       "https://images.frandroid.com/wp-content/uploads/2019/04/iphone-xs-2018.png",
-    name: "Iphone xs",
+    name: "IPHONE XS",
     processeur: " A12 Bionic Apple",
     ram: "4 Go",
     batterie: "2658 mAh",
@@ -114,7 +114,7 @@ export const IPHONE: Iphone[] = [
     id: 8,
     picture:
       "https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-xs/iphone-xs-gold.jpg",
-    name: "Iphone xs max",
+    name: "IPHONE XS Max",
     processeur: "Apple A12 Bionic",
     ram: "4 Go",
     batterie: "2,658 mAh",
@@ -130,7 +130,7 @@ export const IPHONE: Iphone[] = [
     id: 9,
     picture:
       "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large.jpg",
-    name: "Iphone 11",
+    name: "IPHONE 11",
     processeur: "A13 Bionic Apple",
     ram: "4 Go",
     batterie: "3110 mAh",
@@ -146,7 +146,7 @@ export const IPHONE: Iphone[] = [
     id: 10,
     picture:
       "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-11-pro-silver-2019?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1611101533000",
-    name: "Iphone 11 Pro",
+    name: "IPHONE 11 Pro",
     processeur: "A13 Bionic Apple",
     ram: "4 Go",
     batterie: "3046 mAh",
@@ -163,7 +163,7 @@ export const IPHONE: Iphone[] = [
     id: 11,
     picture:
       "https://themadon.com/wp-content/uploads/2021/11/iPhone-11-Pro.jpeg",
-    name: "Iphone 11 Pro Max",
+    name: "IPHONE 11 Pro Max",
     processeur: "A13 Bionic Apple",
     ram: "4 Go",
     batterie: "3969 mAh",
@@ -180,7 +180,7 @@ export const IPHONE: Iphone[] = [
     id: 12,
     picture:
       "https://www.boutika.co.ma/34074-large_default/apple-iphone-12.jpg",
-    name: "Iphone 12",
+    name: "IPHONE 12",
     processeur: " Apple A14 Bionic",
     ram: "4 Go",
     batterie: " 2 815 mAh",
@@ -196,7 +196,7 @@ export const IPHONE: Iphone[] = [
     id: 13,
     picture:
       "https://images.frandroid.com/wp-content/uploads/2020/10/iphone-12-max-frandroid-2020.png",
-    name: "Iphone 12 Pro",
+    name: "IPHONE 12 Pro",
     processeur: " A14 Bionic Apple",
     ram: "6 Go",
     batterie: " 2815 mAh",
@@ -212,7 +212,7 @@ export const IPHONE: Iphone[] = [
     id: 14,
     picture:
       "https://merchandising-assets.bestbuy.ca/bltc8653f66842bff7f/blt15ec7c264841e51b/5fa091be432f517518d42103/bbym-20201106-feature-iphone12-pro-max-pre-order-fg-s.png?width=150p&quality=80&auto=webp",
-    name: "Iphone 12 Pro Max",
+    name: "IPHONE 12 Pro Max",
     processeur: " A14 Bionic Apple",
     ram: "6 Go",
     batterie: " 3687 mAh",
@@ -227,7 +227,7 @@ export const IPHONE: Iphone[] = [
   {
     id: 15,
     picture: "https://img.phonandroid.com/2021/09/iPhone-13-Apple.jpg",
-    name: "Iphone 13",
+    name: "IPHONE 13",
     processeur: " A15 Bionic compatible 5G",
     ram: "4 Go",
     batterie: "3 227 mAh",
@@ -243,7 +243,7 @@ export const IPHONE: Iphone[] = [
     id: 16,
     picture:
       "https://cdn.shopify.com/s/files/1/0275/5654/4599/products/Sanstitre-2021-01-24T204150.466_1_800x.jpg?v=1611517586",
-    name: "Iphone 13 Pro",
+    name: "IPHONE 13 Pro",
     processeur: "4 HERTZ",
     ram: "6 Go",
     batterie: "3095 mAh",
@@ -259,7 +259,7 @@ export const IPHONE: Iphone[] = [
     id: 17,
     picture:
       "https://media.ldlc.com/r1600/ld/products/00/05/92/70/LD0005927039_1.jpg",
-    name: "Iphone 13 Pro Max",
+    name: "IPHONE 13 Pro Max",
     processeur: "A15 Bionic Apple",
     ram: "6 Go",
     batterie: "4352 mAh",
@@ -275,7 +275,7 @@ export const IPHONE: Iphone[] = [
     id: 18,
     picture:
       "https://med.greatecno.com/645855/apple-iphone-14-128go-violet.jpg",
-    name: "Iphone 14",
+    name: "IPHONE 14",
     processeur: "A16 Bionic Apple",
     ram: "6 Go",
     batterie: "3,279 mAh",
@@ -291,7 +291,7 @@ export const IPHONE: Iphone[] = [
     id: 19,
     picture:
       "http://d2r9epyceweg5n.cloudfront.net/stores/001/248/099/products/iphone-14-plus-colors21-1b640602a9dac6a0a416648987444389-640-0.png",
-    name: "Iphone 14 Plus",
+    name: "IPHONE 14 Plus",
     processeur: "A16 Bionic Apple",
     ram: "6 Go",
     batterie: "4352 mAh",
@@ -307,7 +307,7 @@ export const IPHONE: Iphone[] = [
     id: 20,
     picture:
       "https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png",
-    name: "Iphone 14 Pro",
+    name: "IPHONE 14 Pro",
     processeur: "A16 Bionic Apple",
     ram: "6 Go",
     batterie: "3200 mAh",
@@ -323,7 +323,7 @@ export const IPHONE: Iphone[] = [
     id: 21,
     picture:
       "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6487/6487484_sd.jpg;maxHeight=640;maxWidth=550",
-    name: "Iphone 14 Pro Max",
+    name: "IPHONE 14 Pro Max",
     processeur: "A16 Bionic Apple",
     ram: "6 Go",
     batterie: "3200 mAh",

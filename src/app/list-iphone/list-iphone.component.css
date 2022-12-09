@@ -1,7 +1,7 @@
-body {
+/**body {
   font-family: "PT Serif", serif;
 }
-
+**/
 #nosIphones {
   margin-left: 10rem;
   font-size: 40px;
@@ -154,7 +154,7 @@ i {
   }
   .card-image img {
     margin-left: 4rem;
-    height: 150px;
+    height: 130px;
     width: 350px;
   }
   .card-content .ecrisdanscard {
