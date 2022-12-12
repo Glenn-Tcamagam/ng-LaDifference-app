@@ -231,9 +231,9 @@ i {
     display: initial;
   }
   #special {
-    height: 35px;
-    width: 320px;
-    margin-top: -4rem;
+    height: 60px;
+    width: 220px;
+    margin-top: -1rem;
     margin-left: -2.1rem;
   }
   .paginate {
