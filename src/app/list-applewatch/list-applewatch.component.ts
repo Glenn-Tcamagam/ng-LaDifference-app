@@ -26,7 +26,4 @@ export class ListApplewatchComponent implements OnInit {
   goToapplewatchacheter(applewatch: Applewatch) {
     this.router.navigate(["/applewatchacheter", applewatch.id]);
   }
-  goTovisitergalerie() {
-    this.router.navigate(["/visitergalerie"]);
-  }
 }
